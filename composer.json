@@ -16,7 +16,7 @@
 		"issues": "https://vivaldi.club/t/flarum"
     },
     "require": {
-		"flarum/core": "^0.1.0-beta.8.0"
+		"flarum/core": "^0.1.0-beta.8"
     },
     "extra": {
 		"branch-alias": {
