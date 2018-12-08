@@ -4,7 +4,7 @@
 fof-custom-footer:
   admin:
     settings:
-      title: 客制化页脚
+      title: 自定义页脚
 
       text: 页脚文本
       height: 页脚高度

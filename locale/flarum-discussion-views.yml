@@ -10,11 +10,11 @@ core:
 flarum_discussion_views:
   forum:
     modal_resetviews:
-      title: 重设贴文浏览次数
+      title: 重设主题浏览次数
       submit: 提交
-      label: 设置贴文浏览次数
+      label: 设置主题浏览次数
     discussion_controls:
       resetviews_button: 设置浏览次数
   admin:
       permissions:
-          reset_views_label: 设置贴文浏览次数
+          reset_views_label: 设置主题浏览次数

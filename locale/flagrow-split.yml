@@ -4,7 +4,7 @@
 flagrow-split:
     admin:
       permissions:
-        split_discussion_label: 拆分贴文
+        split_discussion_label: 拆分主题
 
     forum:
         post:
@@ -14,6 +14,6 @@ flagrow-split:
             from: 于此处开始分割
             to: 于此处结束分割
         modal:
-            title: 分割贴文
-            new_discussion_label: 指定新贴文标题
+            title: 分割主题
+            new_discussion_label: 指定新主题标题
             submit_button: 分割

@@ -11,7 +11,7 @@ flarum-sticky:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      sticky_discussions_label: 置顶贴文
+      sticky_discussions_label: 置顶主题
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -22,7 +22,7 @@ flarum-sticky:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      sticky_button: 置顶贴文
+      sticky_button: 置顶主题
       unsticky_button: 取消置顶
 
     # These translations are displayed between posts in the post stream.

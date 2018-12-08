@@ -5,7 +5,7 @@ flagrow-linguist:
     admin:
         menu:
             title: 语言学家
-            description: 客制化翻译
+            description: 自定义翻译
         buttons:
             apply: 套用
             reset: 复原
@@ -22,5 +22,5 @@ flagrow-linguist:
             with-own-translations: 我的翻译
             with-original-translations-in-locales: 带有原文翻译于
             without-original-translations-in-locales: 不带原文翻译于
-            for-extension: 适用于延伸套件
+            for-extension: 适用于插件
             results: 显示 {shown} 条匹配翻译，共 {total} 条 

@@ -17,9 +17,9 @@ flarum-tags:
     edit_tag:
       color_label: => core.ref.color
       delete_tag_button: 删除节点
-      delete_tag_confirmation: "确定要删除此几点？此节点下的贴文将不会被删除。"
+      delete_tag_confirmation: "确定要删除此几点？此节点下的主题将不会被删除。"
       description_label: 说明
-      hide_label: 从「全部贴文」中隐藏
+      hide_label: 从「全部主题」中隐藏
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: 英文名称
@@ -41,14 +41,14 @@ flarum-tags:
     tag_settings:
       range_separator_text: " 至 "
       required_primary_heading: 主节点数量
-      required_primary_text: 设置贴文主节点数量范围
+      required_primary_text: 设置主题主节点数量范围
       required_secondary_heading: 次节点数量
-      required_secondary_text: 设置贴文次节点数量范围
+      required_secondary_text: 设置主题次节点数量范围
       title: 节点设置
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "节点用于分类贴文。主节点类似于传统论坛的板块；次节点无层级或顺序，可作为子分类。"
+      about_tags_text: "节点用于分类主题。主节点类似于传统论坛的板块；次节点无层级或顺序，可作为子分类。"
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: 主节点
       secondary_heading: 次节点

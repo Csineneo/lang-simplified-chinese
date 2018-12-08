@@ -11,8 +11,8 @@ flarum-flags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts_label: 举报贴文
-      view_flags_label: 查看被举报的贴文
+      flag_posts_label: 举报主题
+      view_flags_label: 查看被举报的主题
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
@@ -59,5 +59,5 @@ flarum-flags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    flag_post: 举报贴文
-    flagged_posts: 被举报的贴文
+    flag_post: 举报主题
+    flagged_posts: 被举报的主题

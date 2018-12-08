@@ -8,8 +8,8 @@ flarum-notify:
     events:
       title: 通知事件
       description: 选取触发通知的事件。当以下事件发生时发送通知
-      discussion_started: 有新贴文
-      discussion_deleted: 有贴文被删除
+      discussion_started: 有新主题
+      discussion_deleted: 有主题被删除
       post_posted: 有新回复
       post_hidden: 有回复被隐藏
       post_deleted: 有回复被删除

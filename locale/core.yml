@@ -9,24 +9,24 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "如果你是开发者，你可以<a>阅读文档</a>并自行开发延伸套件。"
-      install_text: "在此期间你可以造访<a>Flarum 社区</a>搜索延伸套件，并通过 Composer 手动安装。"
-      temporary_text: "终有一天，在不远的将来，此对话框将让你轻松地添加延伸套件。如我们所说，我们将创建一套生态系统！"
-      title: 添加延伸套件
+      developer_text: "如果你是开发者，你可以<a>阅读文档</a>并自行开发插件。"
+      install_text: "在此期间你可以造访<a>Flarum 社区</a>搜索插件，并通过 Composer 手动安装。"
+      temporary_text: "终有一天，在不远的将来，此对话框将让你轻松地添加插件。如我们所说，我们将创建一套生态系统！"
+      title: 添加插件
 
     # These translations are used in the Appearance page.
     appearance:
       colored_header_label: 彩色页眉
       colors_heading: 颜色
       colors_text: "选择两种颜色作为论坛主色调。第一种作为突出显示颜色，第二种作为背景元素样式。"
-      custom_footer_heading: 客制化页脚
+      custom_footer_heading: 自定义页脚
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: 客制化页眉
+      custom_header_heading: 自定义页眉
       custom_header_text: => core.ref.custom_header_text
-      custom_styles_heading: 客制化样式
-      custom_styles_text: 添加 LESS/CSS 代码以客制化论坛外观，此设置将覆盖 Flarum 默认样式。
+      custom_styles_heading: 自定义样式
+      custom_styles_text: 添加 LESS/CSS 代码以自定义论坛外观，此设置将覆盖 Flarum 默认样式。
       dark_mode_label: 暗黑模式
-      edit_css_button: 编辑客制化 CSS
+      edit_css_button: 编辑自定义 CSS
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
       enter_hex_message: 请键入十六进制颜色代码。
@@ -49,7 +49,7 @@ core:
       show_language_selector_label: 显示语言选择菜单
       submit_button: => core.ref.save_changes
       welcome_banner_heading: 欢迎横幅
-      welcome_banner_text: 横幅文本将显示于「全部贴文」页面顶部，用以欢迎新到访的游客。
+      welcome_banner_text: 横幅文本将显示于「全部主题」页面顶部，用以欢迎新到访的游客。
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -58,9 +58,9 @@ core:
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "通过增加 LESS/CSS 代码以客制化论坛外观，此设置将覆盖 Flarum <a>默认样式</a>。"
+      customize_text: "通过增加 LESS/CSS 代码以自定义论坛外观，此设置将覆盖 Flarum <a>默认样式</a>。"
       submit_button: => core.ref.save_changes
-      title: 编辑客制化 CSS
+      title: 编辑自定义 CSS
 
     # These translations are used in the Edit Custom Footer modal dialog.
     edit_footer:
@@ -111,7 +111,7 @@ core:
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: 添加延伸套件
+      add_button: 添加插件
       settings_button: => core.ref.settings
       uninstall_button: 移除
 
@@ -126,14 +126,14 @@ core:
     # These translations are used in the navigation bar.
     nav:
       appearance_button: 外观设置
-      appearance_text: "客制化论坛色调、徽标以及其他元素"
+      appearance_text: "自定义论坛色调、徽标以及其他元素"
       basics_button: 基本设置
       basics_text: "设置论坛名称、语言以及其他基本设置"
       dashboard_button: 论坛概览
       dashboard_text: 论坛数据综览
       email_button: => core.ref.email
       email_text: "配置论坛邮箱设置。"
-      extensions_button: 延伸套件
+      extensions_button: 插件
       extensions_text: 为你的论坛添加额外功能
       permissions_button: 权限设置
       permissions_text: 设置会员访问及操作权限
@@ -141,10 +141,10 @@ core:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_renaming_label: 更改标题
-      allow_post_editing_label: 编辑贴文
-      create_heading: 贴文
-      delete_discussions_forever_label: 永久删除贴文
-      delete_discussions_label: 删除贴文
+      allow_post_editing_label: 编辑主题
+      create_heading: 主题
+      delete_discussions_forever_label: 永久删除主题
+      delete_discussions_label: 删除主题
       delete_posts_forever_label: 永久删除回复
       delete_posts_label: 删除回复
       edit_posts_label: 编辑回复
@@ -156,8 +156,8 @@ core:
       rename_discussions_label: 更改标题
       reply_to_discussions_label: 添加回复
       sign_up_label: 注册帐户
-      start_discussions_label: 添加贴文
-      view_discussions_label: 查看贴文
+      start_discussions_label: 添加主题
+      view_discussions_label: 查看主题
       view_last_seen_at_label: 查看最后活动时间
       view_post_ips_label: 查看 IP 地址
       view_user_list_label: 查看会员列表
@@ -210,8 +210,8 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: 撰写贴文...
-      discard_confirmation: "贴文尚未发布，是否丢弃？"
+      body_placeholder: 撰写主题...
+      discard_confirmation: "主题尚未发布，是否丢弃？"
       submit_button: 发布
       title: => core.ref.start_a_discussion
       title_placeholder: 标题
@@ -233,9 +233,9 @@ core:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: 无法回复
-      cannot_reply_text: 你没有权限回复此贴文
+      cannot_reply_text: 你没有权限回复此主题
       delete_button: => core.ref.delete
-      delete_confirmation: "确定是否删除此贴文？"
+      delete_confirmation: "确定是否删除此主题？"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: 登录以回复
       rename_button: => core.ref.rename
@@ -288,8 +288,8 @@ core:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: 无法发布贴文
-      mark_all_as_read_confirmation: "你确定要标记所有贴文为已读吗？"
+      cannot_start_discussion_button: 无法发布主题
+      mark_all_as_read_confirmation: "你确定要标记所有主题为已读吗？"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: 重新加载
       start_discussion_button: => core.ref.start_a_discussion
@@ -297,10 +297,10 @@ core:
     # These translations are used by the sorting control above the discussion list.
     index_sort:
       latest_button: 最后回复
-      newest_button: 最新贴文
-      oldest_button: 最旧贴文
+      newest_button: 最新主题
+      oldest_button: 最旧主题
       relevance_button: 关联推荐
-      top_button: 最热贴文
+      top_button: 最热主题
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -368,7 +368,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: 网页
-      notify_discussion_renamed_label: 你的贴文标题被更改
+      notify_discussion_renamed_label: 你的主题标题被更改
       privacy_disclose_online_label: 公开展示我的在线状态
       privacy_heading: 隐私
       title: => core.ref.settings
@@ -403,7 +403,7 @@ core:
     user_controls:
       button: 操作 
       delete_button: => core.ref.delete
-      delete_confirmation: "确定要删除此帐户？此帐户下的贴文均将被删除。"
+      delete_confirmation: "确定要删除此帐户？此帐户下的主题均将被删除。"
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
@@ -534,19 +534,19 @@ core:
   
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: 全部贴文
+    all_discussions: 全部主题
     change_email: 更改邮箱
     change_password: 更改密码
     color: 颜色
     confirm_password: 确认密码
     confirmation_email_sent: "验证邮件已发送至 {email}，若未收到请检查垃圾箱。"
     custom_footer_text: 添加 HTML 代码显示于页面底部。
-    custom_footer_title: 编辑客制化页脚
+    custom_footer_title: 编辑自定义页脚
     custom_header_text: "添加要显示在页面顶部的，在 Flarum 自有页眉之上的 HTML。"
-    custom_header_title: 编辑客制化页眉
+    custom_header_title: 编辑自定义页眉
     delete: 删除
     delete_forever: 永久删除
-    discussions: 贴文
+    discussions: 主题
     edit: 编辑
     email: 邮箱
     load_more: 加载更多
@@ -557,7 +557,7 @@ core:
     notifications: 通知
     okay: 好                                     # Referenced by flarum-tags.yml
     password: 密码
-    posts: 贴文
+    posts: 主题
     remove: 移除
     previous_page: 上一页
     rename: 重命名
@@ -568,7 +568,7 @@ core:
     settings: 设置
     sign_up: 注册
     some_others: "{count} 人|{count} 人"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: 添加贴文
+    start_a_discussion: 添加主题
     username: 会员
     users: 会员
     write_a_reply: 撰写回复...

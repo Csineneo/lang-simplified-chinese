@@ -5,7 +5,7 @@ fof-spamblock:
   forum:
     user_controls:
       spammer_button: 垃圾虫
-      spammer_confirmation: "你确定想要 \n• 隐藏全部用户的贴文及回复 \n• [flarum/suspend] 封禁此用户"
+      spammer_confirmation: "你确定想要 \n• 隐藏全部用户的主题及回复 \n• [flarum/suspend] 封禁此用户"
 
   admin:
     permissions:

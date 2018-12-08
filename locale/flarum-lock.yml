@@ -11,7 +11,7 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: 锁定贴文
+      lock_discussions_label: 锁定主题
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -22,12 +22,12 @@ flarum-lock:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      lock_button: 锁定贴文
-      unlock_button: 解锁贴文
+      lock_button: 锁定主题
+      unlock_button: 解锁主题
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_locked_text: "{username} 锁定贴文"
+      discussion_locked_text: "{username} 锁定主题"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -36,4 +36,4 @@ flarum-lock:
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: 你的贴文被锁定
+      notify_discussion_locked_label: 你的主题被锁定

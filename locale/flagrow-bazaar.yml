@@ -11,9 +11,9 @@ flagrow-bazaar:
             report_issue: 回报问题
         nav:
             title: 市场
-            description: 延伸套件市场
+            description: 插件市场
         header:
-            extensions: 浏览延伸套件
+            extensions: 浏览插件
             tasks: 任务历史纪录
         modal:
             dashboard:
@@ -22,13 +22,13 @@ flagrow-bazaar:
                 sync:
                     switch: 同步
                     description: >
-                        将您的延伸套件信息与 {host} 同步，以便及时收到有关您安装的新版本延伸套件的通知。另外，我们会向您发送关于所有启用同步市场的过期延伸套件的常规通知。
+                        将您的插件信息与 {host} 同步，以便及时收到有关您安装的新版本插件的通知。另外，我们会向您发送关于所有启用同步市场的过期插件的常规通知。
             settings:
                 title: Flagrow 市场
                 field:
                     token:
                         label: API token
-                        description: API token 是访问 Flagrow 延伸套件 API 所必需的。如果已经设置好了，这是好的开始！
+                        description: API token 是访问 Flagrow 插件 API 所必需的。如果已经设置好了，这是好的开始！
                     use_cron_for_tasks:
                         label: 定时任务
                         description: >
@@ -61,22 +61,22 @@ flagrow-bazaar:
                 disable: 停用
                 update: 更新
                 connect: 连接
-                favorite_button: "喜爱的延伸套件"
-                remove_favorite_button: "移出喜爱的延伸套件"
+                favorite_button: "喜爱的插件"
+                remove_favorite_button: "移出喜爱的插件"
                 subscribe: 购买订阅
                 unsubscribe: 取消订阅
-                connect_to_subscribe: 连接市场以订阅延伸套件
+                connect_to_subscribe: 连接市场以订阅插件
             extension:
-                installed: 延伸套件已安装
-                enabled: 延伸套件已启用
+                installed: 插件已安装
+                enabled: 插件已启用
                 vendor: By {vendor}
                 downloads: 下载量
                 installed_version: 已安装的版本
                 highest_version: 最新版本
                 favorites: 最爱
                 favorited: 你的最爱
-                pending: 延伸套件等待后台任务完成
-                outdated: "延伸套件已过时，请更新至版本 {new}"
+                pending: 插件等待后台任务完成
+                outdated: "插件已过时，请更新至版本 {new}"
                 premium: Premium
                 subscribed: 已订阅
                 subscribe_check_failed: 看起来你取消了结帐。
@@ -110,7 +110,7 @@ flagrow-bazaar:
                     lastmonth: 上月
                     older: 更早
         search:
-            placeholder: 搜索延伸套件
+            placeholder: 搜索插件
             filter_installed: 已安装
             filter_update: 有更新
             filter_favorited: 喜爱的

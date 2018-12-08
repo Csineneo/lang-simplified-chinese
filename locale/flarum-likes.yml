@@ -18,7 +18,7 @@ flarum-likes:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      post_liked_text: "{username} 赞了你的贴文"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "{username} 赞了你的主题"  # Can be pluralized to agree with the number of users!
       others_text: => core.ref.some_others
 
     # These translations are displayed beneath individual posts.
@@ -36,4 +36,4 @@ flarum-likes:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: 有人赞了我的贴文
+      notify_post_liked_label: 有人赞了我的主题

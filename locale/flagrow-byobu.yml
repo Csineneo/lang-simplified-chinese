@@ -5,7 +5,7 @@ flagrow-byobu:
   forum:
     badges:
       is_private:
-        tooltip: 私密贴文
+        tooltip: 私密主题
     buttons:
       add_recipients: 参与者
       submit: 好
@@ -15,7 +15,7 @@ flagrow-byobu:
       recipients: "仅 {count} 人可见"
       user_deleted: --已删除--
     nav:
-      private_discussions: 私密贴文
+      private_discussions: 私密主题
     input:
       search_recipients: 输入 ID 前三个字符进行搜索
     search:
@@ -23,8 +23,8 @@ flagrow-byobu:
         groups: 用户群组
     modal:
       titles:
-        update_recipients: 更新私密贴文「{title}」的参与者
-        add_recipients: 添加参与者到私密贴文
+        update_recipients: 更新私密主题「{title}」的参与者
+        add_recipients: 添加参与者到私密主题
     post:
       recipients_modified:
         added_and_removed: "{username} 添加「{added}」并移除「{removed}」"
@@ -32,7 +32,7 @@ flagrow-byobu:
         removed: "{username} 移除「{removed}」"
   admin:
     permission:
-      create_private_discussions_with_users: 创建私密贴文并可添加参与者
-      create_private_discussions_with_groups: 创建私密贴文并可添加群组
+      create_private_discussions_with_users: 创建私密主题并可添加参与者
+      create_private_discussions_with_groups: 创建私密主题并可添加群组
       edit_user_recipients: 编辑参与私密讨论的参与者
       edit_group_recipients: 编辑参与私密讨论的群组

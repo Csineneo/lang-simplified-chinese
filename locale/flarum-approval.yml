@@ -3,7 +3,7 @@
 flarum-approval:
   admin:
     permissions:
-      approve_posts_label: 审核贴文
+      approve_posts_label: 审核主题
       reply_without_approval_label: 无需审核直接回复
       start_discussions_without_approval_label: 无需审核直接发文
 
