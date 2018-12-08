@@ -1,0 +1,39 @@
+{
+    "name": "csineneo/lang-simplified-chinese",
+    "type": "flarum-extension",
+    "description": "Simplified Chinese language pack for Flarum",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Csineneo",
+            "email": "csineneo@gmail.com",
+			"homepage": "https://vivaldi.club"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/Csineneo/lang-simplified-chinese.git",
+		"issues": "https://vivaldi.club/t/flarum"
+    },
+    "require": {
+		"flarum/core": "^0.1.0-beta.8.0"
+    },
+    "extra": {
+		"branch-alias": {
+			"dev-master": "0.1.x-dev"
+		},
+        "flarum-extension": {
+            "title": "Chinese (zh_CN)",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#fff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "zh-cn",
+            "title": "简体中文"
+        }
+    }
+}

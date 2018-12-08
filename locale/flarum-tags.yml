@@ -1,0 +1,106 @@
+# https://github.com/flarum/flarum-ext-english/blob/master/locale/flarum-tags.yml
+
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: => core.ref.color
+      delete_tag_button: 删除节点
+      delete_tag_confirmation: "确定要删除此几点？此节点下的贴文将不会被删除。"
+      description_label: 说明
+      hide_label: 从「全部贴文」中隐藏
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: 英文名称
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: 节点设置
+      tags_text: 管理论坛节点列表
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: 允许编辑节点
+      restrict_by_tag_heading: 按节点
+      tag_discussions_label: 更改节点
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " 至 "
+      required_primary_heading: 主节点数量
+      required_primary_text: 设置贴文主节点数量范围
+      required_secondary_heading: 次节点数量
+      required_secondary_text: 设置贴文次节点数量范围
+      title: 节点设置
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "节点用于分类贴文。主节点类似于传统论坛的板块；次节点无层级或顺序，可作为子分类。"
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: 主节点
+      secondary_heading: 次节点
+      settings_button: 设置
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "选择主节点|选择 {count} 个主节点"
+      choose_secondary_placeholder: "选择次节点|选择 {count} 个次节点"
+      edit_title: "更改「{title}」的节点"
+      submit_button: => core.ref.okay
+      title: 选择节点
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: 选择节点
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: 编辑节点
+
+    header:
+      back_to_tags_tooltip: 返回节点列表
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: 更多节点...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: 移除节点
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username} 添加节点 {tagsAdded}"
+      added_and_removed_tags_text: "{username} 添加节点 {tagsAdded} 并移除节点 {tagsRemoved}"
+      removed_tags_text: "{username} 移除节点 {tagsRemoved}"
+      tags_text: "{tags}|{tags}"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This string is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: 已删除
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: 添加节点
+    name: 节点名称
+    tags: 节点

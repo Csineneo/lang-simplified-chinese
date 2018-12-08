@@ -1,0 +1,8 @@
+reflar-prettymail:
+  admin:
+    modal:
+      title: Pretty Mail 设置
+      label: 邮件模板
+      reset: 复原为默认
+      confirm: 确定要复原为默认模板吗？
+      help: '你可以使用这几个变量： $body 表示邮件正文，$baseUrl 表示论坛 URL，$settings 允许你与 SettingsRepositoryInterface 进行交互，$link 包含邮件中的链接。查看默认模板了解如何使用变量。'

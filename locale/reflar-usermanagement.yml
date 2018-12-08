@@ -1,0 +1,71 @@
+# https://gitlab.com/ReDevelopers/ReFlar/user-management/blob/master/locale/en.yml
+
+reflar-usermanagement:
+  admin:
+    strike_perm_item: 警告
+    activate_perm_item: 手动激活用户
+    viewstrike_perm_item: 查看用户警告
+    nav:
+      title: 用户列表
+      desc: 查看及管理用户
+    modal:
+      view:
+        number: 数量
+        no_strikes: 干净的用户记录！
+        content: 帖文
+        actor: 运行者
+        time: 时间
+        reason: 原因
+        link: 链接
+        remove: 移除
+        title : "{username} 的警告"
+      settings_title: 设置
+      email_switch: 停用邮件注册
+      gender_label: 启用性别注册信息
+      age_label: 启用年龄注册信息
+      amount_label: 每页显示的用户数
+      recaptcha: 启用 recaptcha 兼容
+      spam: 启用 StopForumSpam 保护
+    page: 
+      activate: 激活
+      online_text: 在在线
+      settings: 设置
+      list_title: 用户
+      load_more_button: 加载更多
+      about_text: "您的用户一目了然。点击眼睛查看用户的个人数据。点击'！' 查看用户的黑历史"
+  forum:
+    post_controls:
+      strike_button: 警告
+    signup:
+      age: 年龄
+      gender: 性别
+      male: 男性
+      female: 女性
+      other: 其他
+    user:
+      settings:
+        button: 年龄及性别
+        title: 年龄及性别
+        save: 保存
+        success: 保存成功
+      age: "年龄: {age}"
+      controls:
+        strike_button: 查看黑历史
+        activate_button: 激活用户
+        modal: "{username} 的黑历史"
+        previous: "{username} 之前的记录"
+    modal:
+      post:
+        title: 发警告用户 {username}
+        reason_placeholder: 警告原因
+        strike_reason: 原因
+        submit_button: 发警告
+      view:
+        number: 数量
+        no_strikes: 干净的用户记录！
+        content: 帖文
+        actor: 运行者
+        time: 时间
+        reason: 原因
+        link: 链接
+        remove: 移除 

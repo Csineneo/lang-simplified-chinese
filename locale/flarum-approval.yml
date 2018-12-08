@@ -1,0 +1,19 @@
+# https://github.com/flarum/flarum-ext-english/blob/master/locale/flarum-approval.yml
+
+flarum-approval:
+  admin:
+    permissions:
+      approve_posts_label: 审核贴文
+      reply_without_approval_label: 无需审核直接回复
+      start_discussions_without_approval_label: 无需审核直接发文
+
+  forum:
+    badge:
+      awaiting_approval_tooltip: => flarum-approval.ref.awaiting_approval
+    post:
+      awaiting_approval_text: => flarum-approval.ref.awaiting_approval
+    post_controls:
+      approve_button: 审核
+
+  ref:
+    awaiting_approval: 等候审核
