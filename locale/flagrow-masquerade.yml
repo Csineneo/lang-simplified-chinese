@@ -1,0 +1,62 @@
+# https://github.com/flagrow/masquerade/blob/master/resources/locale/en.yml
+# Sat, 08 Dec 2018 20:59:08 +0800
+
+flagrow-masquerade:
+    forum:
+        alerts:
+            profile-completion-required: >
+                請完成以下必填項
+        buttons:
+            view-profile: 查看資料卡
+            save-profile: 儲存
+        fields:
+            select:
+                none-optional: 未選擇任何選項（可選）
+                none-required: 請選擇一個選項（必選）
+            boolean:
+                yes: 是
+                no: 否
+    admin:
+        buttons:
+            add-field: 新增欄位
+            edit-field: 編輯欄位
+            delete-field: 刪除欄位
+        permissions:
+            have-profile: 有 masquerade 資料卡
+            view-profile: 查看 masquerade 資料卡
+        menu:
+            description: >
+                配置用戶資料卡欄位
+        fields:
+            add: 新增欄位 {field}
+            edit: 編輯欄位 {field}
+            name: 欄位名稱
+            name-help: >
+                公開可見且不可翻譯的欄位標籤
+            description: 欄位說明
+            description-help: >
+                可選說明以解釋這個欄位的用途
+            required: 標記為必填項
+            on_bio: 在使用者個人資料總顯示這個欄位
+            type: 類型
+            validation: 校驗
+            validation-help: >
+                查看支援的 <a>Laravel validation rules</a>，例如:
+                "string,min:5" 或 "url".
+            prefix: 欄位前綴
+            prefix-help: >
+                在這個欄位前顯示填寫的內容
+            icon: 小圖示
+            icon-help: >
+                在這個欄位前顯示小圖示。可用的小圖示請查看 <a>FontAwesome 網站</a>，無需「fa-」前綴
+            force-user-to-completion: 強制使用者必須完成資料卡
+            disable-user-bio: 停用使用者個人資料欄位
+            options: 選項
+            option-new: 新增選項
+            option-coma-warning: 選項標籤不能含有逗號「,」
+        types:
+            advanced: 高階
+            boolean: 複選框
+            email: 郵箱
+            select: 下拉選單
+            url: 連結
