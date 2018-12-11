@@ -23,7 +23,7 @@
 			"dev-master": "0.1.x-dev"
 		},
         "flarum-extension": {
-            "title": "Chinese (zh_CN)",
+            "title": "简体中文语言包",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#fff",

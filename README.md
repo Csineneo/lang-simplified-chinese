@@ -34,6 +34,7 @@ https://vivaldi.club
   - flagrow-ads
   - flagrow-bazaar
   - flagrow-byobu
+  - flagrow-fonts
   - flagrow-impersonate
   - flagrow-linguist
   - flagrow-masquerade
