@@ -37,10 +37,9 @@ https://vivaldi.club
   - flagrow-fonts
   - flagrow-impersonate
   - flagrow-linguist
-  - flagrow-masquerade
   - flagrow-passport
   - flagrow-split
-  - flagrow-telegram
+  - flagrow-terms
   - flagrow-upload
   - flarum-akismet
   - flarum-approval
@@ -68,6 +67,7 @@ https://vivaldi.club
   - fof-spamblock
   - fof-userbio
   - michaelBelgium-profile-views
+  - migratetoflarum-vbulletin-redirects
   - reflar-doorman
   - reflar-gamification
   - reflar-koseki
@@ -75,3 +75,4 @@ https://vivaldi.club
   - reflar-polls
   - reflar-reactions
   - reflar-twofactor
+  - reflar-webhooks
