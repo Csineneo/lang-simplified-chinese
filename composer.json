@@ -1,7 +1,7 @@
 {
     "name": "csineneo/lang-simplified-chinese",
     "type": "flarum-extension",
-    "description": "Simplified Chinese language pack for Flarum",
+    "description": "适用于 Flarum v0.1.0-beta.8 及更新版本的简体中文语言包",
     "keywords": ["locale"],
     "license": "MIT",
     "authors": [
