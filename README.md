@@ -66,6 +66,7 @@ https://vivaldi.club
   - fof-formatting
   - fof-secure-https
   - fof-spamblock
+	- fof-transliterator
   - fof-userbio
   - michaelBelgium-profile-views
   - migratetoflarum-vbulletin-redirects
