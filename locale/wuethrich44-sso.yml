@@ -1,0 +1,10 @@
+# https://github.com/fabwu/flarum-ext-sso/blob/master/locale/en.yml
+# Wed, 19 Dec 2018 13:07:06 +0800
+
+wuethrich44-sso:
+  admin:
+    settings:
+      title: "单点登录设置"
+      signup_url: "注册链接"
+      login_url: "登录链接"
+      logout_url: "注销链接"
