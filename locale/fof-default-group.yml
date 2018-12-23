@@ -1,0 +1,7 @@
+# https://github.com/FriendsOfFlarum/default-group/blob/master/resources/locale/en.yml
+# Sun, 23 Dec 2018 11:02:35 +0800
+
+fof-default-group:
+  admin:
+    settings:
+      info: 于下方选取用户激活后的默认群组.

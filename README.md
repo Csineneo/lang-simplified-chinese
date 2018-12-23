@@ -63,6 +63,7 @@ https://vivaldi.club
   - flarum-suspend
   - flarum-tags
   - fof-custom-footer
+  - fof-default-group
   - fof-formatting
   - fof-secure-https
   - fof-spamblock
