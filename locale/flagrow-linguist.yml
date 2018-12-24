@@ -4,7 +4,7 @@
 flagrow-linguist:
     admin:
         menu:
-            title: 语言学家
+            title: 翻译
             description: 自定义翻译
         buttons:
             apply: 套用

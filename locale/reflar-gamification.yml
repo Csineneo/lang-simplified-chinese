@@ -8,11 +8,11 @@ core:
       
 reflar-gamification:
   forum:
-    vote_title: 显示投票人
+    vote_title: 显示投票者
     nav:
       name: 排名
     ranking:
-      rank: 排位
+      rank: 排名
       name: 用户
       amount: 👍
     notification:
@@ -25,6 +25,7 @@ reflar-gamification:
       title: 打分
       upvotes_label: 顶
       downvotes_label: 踩
+    mod_item: 显示投票者
   admin:
     permissions:
       vote_label: 顶/踩帖文
@@ -51,12 +52,12 @@ reflar-gamification:
         title: 顶
         vote_color: 顶贴颜色
         icon_name: 顶/踩小图标
-        icon_help: "输入任何 Font-Awesome 图标，后缀为 -up 和 -down。 示例：箭头，拇指，人字纹"
+        icon_help: "输入任何 Font Awesome 图标，后缀为 -up 和 -down。 示例：箭头，拇指，人字纹"
       save_settings: 保存设置
       convert:
         button: 转换「喜欢」为「顶」
-        help: 将 flarum-ext-like 产生的「喜欢」转换成「顶」，并计算所有当前讨论的热度
-        converting: 您的喜好正在被转换，稍后几分钟刷新页面查看转换结果。（转换可能需要一段时间，具体取决于您的论坛）
+        help: 将 Likes 插件产生的「喜欢」转换成「顶」，并计算所有当前讨论的热度
+        converting: 您的 Likes 数据正在转换，请等待几分钟再刷新页面查看转换结果。（转换可能需要一段时间，具体取决于您的论坛）
         converted: "成功转换 {number} 个喜欢"
       ranks:
         title: 等级

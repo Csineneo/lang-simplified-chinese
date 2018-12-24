@@ -4,7 +4,7 @@
 reflar-webhooks:
   actions:
     discussion:
-      started: "已添加主题 `{1}`"
+      started: "已发布主题 `{1}`"
       renamed:
         title: "已重命名主题 `{1}`"
         description: "新标题: {1}"

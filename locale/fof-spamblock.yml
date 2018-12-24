@@ -4,10 +4,10 @@
 fof-spamblock:
   forum:
     user_controls:
-      spammer_button: 垃圾虫
+      spammer_button: 破坏者
       spammer_confirmation: "你确定想要 \n• 隐藏全部用户的主题及回复 \n• [flarum/suspend] 封禁此用户"
 
   admin:
     permissions:
-      spamblock_users_label: 将此用户标记为垃圾虫
+      spamblock_users_label: 将用户标记为破坏者
 

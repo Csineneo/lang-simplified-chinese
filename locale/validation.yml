@@ -95,15 +95,15 @@ validation:
   uuid: ":attribute 必须少有效的 UUID"
 
   attributes:
-    username: 用户
+    username: 用户名
     password: 密码
     email: 邮箱
     title: 标题
     content: 正文
     name_singular: 单数名称
     name_plural: 复数名称
-    tag_count_primary: 主节点数量
-    tag_count_secondary: 次节点数量
+    tag_count_primary: 主标签数量
+    tag_count_secondary: 次标签数量
 
   custom:
     username:

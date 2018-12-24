@@ -10,7 +10,7 @@ flagrow-bazaar:
             close: 关闭
             report_issue: 回报问题
         nav:
-            title: 市场
+            title: 巴扎
             description: 插件市场
         header:
             extensions: 浏览插件
