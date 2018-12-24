@@ -6,5 +6,5 @@ flarum-emoji:
   forum:
      # These translations are used by the composer (emoji autocompletion function).
     composer:
-      emoji_tooltip: 插入表情符号
-      type_to_search_text: 搜索表情符号
+      emoji_tooltip: 表情
+      type_to_search_text: 键入以搜索

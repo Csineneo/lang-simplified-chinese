@@ -68,12 +68,6 @@ core:
       submit_button: => core.ref.save_changes
       title: => core.ref.custom_footer_title
 
-    # These translations are used in the Edit Custom Footer modal dialog.
-    edit_footer:
-      customize_text: => core.ref.custom_footer_text
-      submit_button: => core.ref.save_changes
-      title: => core.ref.custom_footer_title
-
     # These translations are used in the Edit Group modal dialog.
     edit_group:
       color_label: => core.ref.color
@@ -125,18 +119,18 @@ core:
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: 外观设置
+      appearance_button: 外观
       appearance_text: "自定义论坛色调、徽标以及其他元素"
-      basics_button: 基本设置
-      basics_text: "设置论坛名称、语言以及其他基本设置"
-      dashboard_button: 论坛概览
+      basics_button: 常规
+      basics_text: "设置论坛名称、语言以及其他常规设置"
+      dashboard_button: 概览
       dashboard_text: 论坛数据综览
       email_button: => core.ref.email
-      email_text: "配置论坛邮箱设置。"
+      email_text: "配置论坛邮箱设置"
       extensions_button: 插件
       extensions_text: 为你的论坛添加额外功能
-      permissions_button: 权限设置
-      permissions_text: 设置会员访问及操作权限
+      permissions_button: 权限
+      permissions_text: 设置用户访问及操作权限
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -156,11 +150,11 @@ core:
       rename_discussions_label: 更改标题
       reply_to_discussions_label: 添加回复
       sign_up_label: 注册帐户
-      start_discussions_label: 添加主题
+      start_discussions_label: 发布主题
       view_discussions_label: 查看主题
       view_last_seen_at_label: 查看最后活动时间
       view_post_ips_label: 查看 IP 地址
-      view_user_list_label: 查看会员列表
+      view_user_list_label: 查看用户列表
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -203,8 +197,8 @@ core:
     # These translations are used by the composer controls.
     composer:
       close_tooltip: 关闭
-      exit_full_screen_tooltip: 退出全屏幕
-      full_screen_tooltip: 全屏幕
+      exit_full_screen_tooltip: 退出全屏
+      full_screen_tooltip: 全屏
       minimize_tooltip: 最小化
       preview_tooltip: 预览
 
@@ -252,7 +246,7 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: 激活会员
+      activate_button: 激活用户
       email_heading: => core.ref.email
       email_label: => core.ref.email
       groups_heading: 群组
@@ -260,7 +254,7 @@ core:
       password_label: => core.ref.password
       set_password_label: 设置新密码
       submit_button: => core.ref.save_changes
-      title: 编辑会员
+      title: 编辑用户
       username_heading: => core.ref.username
       username_label: => core.ref.username
 
@@ -269,20 +263,20 @@ core:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       email_sent_message: 已将包含密码重设链接的邮件发送至该邮箱，若未收到请检查垃圾箱。
-      not_found_message: 没有使用此邮箱地址注册的会员。
+      not_found_message: 没有使用此邮箱地址注册的用户。
       submit_button: 重设密码
       text: 请键入邮箱地址，我们将发送密码重设链接至该邮箱。
       title: 忘记密码
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: 管理后台
+      admin_button: 管理
       back_to_index_tooltip: 返回帖文列表
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: 基本数据
+      profile_button: 个人
       search_placeholder: 搜索
-      settings_button: 个人设置
+      settings_button: 设置
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
@@ -296,7 +290,7 @@ core:
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: 最后回复
+      latest_button: 最近回复
       newest_button: 最新主题
       oldest_button: 最旧主题
       relevance_button: 关联推荐
@@ -311,7 +305,7 @@ core:
       sign_up_text: "还没有帐户？ <a>立即注册</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: 会员名称或邮箱
+      username_or_email_placeholder: 用户名称或邮箱
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -396,7 +390,6 @@ core:
       posts_empty_text: 暂无回复。
       posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
-      posts_link: 回复
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -484,7 +477,7 @@ core:
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "会员名称仅能包含字母、数字及横线"
+    invalid_username_message: "用户名称仅能包含字母、数字及横线"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -495,7 +488,7 @@ core:
       body: |
         你好，{username}！
 
-        此邮箱地址被用于注册 {forum}，若确定是你本人注册的，请点击下面的链接即可激活你的帐户：
+        你在 {forum} 进行了注册，若确定是你本人注册的，请点击下面的链接激活你的帐户：
 
         {url}
 
@@ -504,11 +497,11 @@ core:
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: 邮箱地址验证
+      subject: 验证邮箱
       body: |
         你好，{username}!
 
-        你在 {forum} 的邮箱地址被更改为此邮箱，若确定是你本人进行的更改，请点击下面的链接即可完成邮箱验证：
+        你在 {forum} 的邮箱被更改为此邮箱，若确定是你本人进行的更改，请点击下面的链接完成邮箱验证：
 
         {url}
 
@@ -521,11 +514,11 @@ core:
       body: |
         你好，{username}！
 
-        收到来自 {forum} 的密码重设请求，若确定是你本人进行才操作，请点击下面的链接重设密码：
+        你在 {forum} 请求重设密码，若确定是你本人进行的更改，请点击下面的链接重设密码：
 
         {url}
 
-        若非你本人行为或不想重设密码，请忽略此邮件。
+        若非你本人行为，请忽略此邮件。
 
 
   ##
@@ -552,10 +545,10 @@ core:
     load_more: 加载更多
     log_in: 登录
     log_out: 注销
-    mark_all_as_read: 标记所有为已读
+    mark_all_as_read: 标记所有帖子为已读
     next_page: 下一页
     notifications: 通知
-    okay: 好                                     # Referenced by flarum-tags.yml
+    okay: 确定                                     # Referenced by flarum-tags.yml
     password: 密码
     posts: 主题
     remove: 移除
@@ -568,9 +561,9 @@ core:
     settings: 设置
     sign_up: 注册
     some_others: "{count} 人|{count} 人"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: 添加主题
-    username: 会员
-    users: 会员
+    start_a_discussion: 发布主题
+    username: 用户名
+    users: 用户
     write_a_reply: 撰写回复...
     you: 你                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
@@ -580,7 +573,7 @@ core:
     admins: 管理员
     guest: 访客
     guests: 访客
-    member: 注册会员
-    members: 注册会员
+    member: 注册用户
+    members: 注册用户
     mod: 版主
     mods: 版主
