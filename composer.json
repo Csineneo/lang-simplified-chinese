@@ -34,7 +34,7 @@
 				}
 		},
 		"flarum-locale": {
-			"code": "zh-tw",
+			"code": "zh-hans",
 			"title": "简体中文"
 		}
 	}

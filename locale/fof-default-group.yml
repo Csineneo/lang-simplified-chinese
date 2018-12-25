@@ -4,4 +4,4 @@
 fof-default-group:
   admin:
     settings:
-      info: 于下方选取用户激活后的默认群组.
+      info: 于下方选取用户激活后的默认用户组.

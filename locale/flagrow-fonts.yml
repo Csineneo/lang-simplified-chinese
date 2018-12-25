@@ -28,4 +28,4 @@ flagrow-fonts:
                 title: Flagrow 字体设置
                 field:
                     googleApiKey: Google API Key
-                    googleApiKeyDescription: 您必须创建一个 Google Fonts API Key 并填入此处。最快的方式是访问<a>这里</a>并点击「Get a key」
+                    googleApiKeyDescription: 您必须创建一个 Google Fonts API Key 并填入此处。最快的方式是访问<a>这里</a>并点击“Get a key”

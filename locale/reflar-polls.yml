@@ -5,7 +5,7 @@ reflar-polls:
   admin:
     permissions:
       moderate: 编辑及删除投票
-      start: 添加投票
+      start: 发起投票
       vote: 投票
       self_edit: 允许用户修改自己的投票
   forum:
@@ -32,9 +32,9 @@ reflar-polls:
     moderation:
       edit: 编辑投票
       delete: 删除投票
-      delete_confirm: 你是否确定要删除此投票?
+      delete_confirm: 你确定要删除此投票?
     composer_discussion:
-      add_poll: 添加投票
+      add_poll: 投票
       edit: => reflar-polls.forum.moderation.edit
     tooltip:
       votes: 票

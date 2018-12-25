@@ -4,17 +4,17 @@
 flagrow-bazaar:
     admin:
         loader:
-            is_loading: 正在处理...
-            error: 发生错误。有关详细信息，请查阅历史记录选项卡和 Flarum 日志。不要害怕向我们反馈。
+            is_loading: 正在加载...
+            error: 发生错误。详细信息请查阅历史记录选项卡和 Flarum 日志。不要害怕向我们反馈。
             refresh: 刷新页面
             close: 关闭
-            report_issue: 回报问题
+            report_issue: 报告问题
         nav:
             title: 巴扎
             description: 插件市场
         header:
             extensions: 浏览插件
-            tasks: 任务历史纪录
+            tasks: 历史记录
         modal:
             dashboard:
                 title: 仪表板
@@ -27,7 +27,7 @@ flagrow-bazaar:
                 title: Flagrow 市场
                 field:
                     token:
-                        label: API token
+                        label: API Token
                         description: API token 是访问 Flagrow 插件 API 所必需的。如果已经设置好了，这是好的开始！
                     use_cron_for_tasks:
                         label: 定时任务
@@ -46,7 +46,7 @@ flagrow-bazaar:
                 php-memory_limit:
                     title: 内存限制
                     description: >
-                        我们建议允许 PHP 至少使用 {required} 内存，您的 php.ini 目前允许 {limit}。尽管我们尝试在运行时增加内存限制，但取决于您的托管环境。更多相关信息，请参阅 <a>wiki</a>。
+                        我们建议允许 PHP 至少使用 {required} 内存，您的 php.ini 目前仅允许 {limit}。尽管我们尝试在运行时增加内存限制，但取决于您的托管环境。更多相关信息，请参阅 <a>wiki</a>。
         page:
             state:
                 no_results_available: >
@@ -61,8 +61,8 @@ flagrow-bazaar:
                 disable: 停用
                 update: 更新
                 connect: 连接
-                favorite_button: "喜爱的插件"
-                remove_favorite_button: "移出喜爱的插件"
+                favorite_button: "收藏的插件"
+                remove_favorite_button: "移出收藏的插件"
                 subscribe: 购买订阅
                 unsubscribe: 取消订阅
                 connect_to_subscribe: 连接市场以订阅插件

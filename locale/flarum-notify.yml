@@ -21,11 +21,11 @@ flarum-notify:
       username: 用户名
     hipchat-modal:
       title: HipChat 设置
-      description: 前往 hipchat.com 在房间(登录，点击「房间」并选取你想要发帖的房间）设置中可取得 token。点击「Tokens」并添加 token。你指定的标签将会显示在每一个通知中。
+      description: 前往 hipchat.com 在房间(登录，点击“房间”并选取你想要发帖的房间）设置中可取得 token。点击“Tokens”并添加 token。你指定的标签将会显示在每一个通知中。
       token: HipChat token
       room: 房间名称或 ID
       warning: 无法在自建 HipChat 中启用通知
     gitter-modal:
       title: Gitter 设置 
-      description: 前往 <a>gitter.im</a> 房间，点击「设置」图标→集成→自定义，将会生成 webhook url
+      description: 前往 <a>gitter.im</a> 房间，点击“设置”图标→集成→自定义，将会生成 webhook url
       webhook: Gitter webhook

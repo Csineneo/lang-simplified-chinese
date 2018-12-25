@@ -4,17 +4,17 @@
 core:
   forum:
     index_sort:
-      popular_button: 热门
-      unpopular_button: 非热门
+      popular_button: 最多点击
+      unpopular_button: 最少点击
 
 flarum_discussion_views:
   forum:
     modal_resetviews:
-      title: 重设主题浏览次数
-      submit: 提交
-      label: 设置主题浏览次数
+      title: 重置浏览次数
+      submit: 确定
+      label: 设置浏览次数
     discussion_controls:
       resetviews_button: 设置浏览次数
   admin:
       permissions:
-          reset_views_label: 设置主题浏览次数
+          reset_views_label: 设置浏览次数

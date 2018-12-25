@@ -11,7 +11,7 @@ flarum-likes:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      like_posts_label: 赞
+      like_posts_label: 点赞
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -23,16 +23,16 @@ flarum-likes:
 
     # These translations are displayed beneath individual posts.
     post:
-      like_link: 赞
-      liked_by_self_text: "{users} 说赞"  # Can be pluralized to agree with the number of users!
-      liked_by_text: "{users} 说赞|{users} 说赞"
+      like_link: 点赞
+      liked_by_self_text: "{users} 赞了"  # Can be pluralized to agree with the number of users!
+      liked_by_text: "{users} 赞了|{users} 赞了"
       others_link: => core.ref.some_others
-      unlike_link: 不赞
+      unlike_link: 取消点赞
       you_text: => core.ref.you
 
     # These translations are used by the Users Who Like This modal dialog.
     post_likes:
-      title: 说赞的用户
+      title: 点赞的用户
 
     # These translations are used in the Settings page.
     settings:
