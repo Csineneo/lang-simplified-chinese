@@ -30,7 +30,7 @@ https://vivaldi.club
     - Packagist: [正體中文](https://packagist.org/packages/csineneo/lang-traditional-chinese), [簡體中文](https://packagist.org/packages/csineneo/lang-simplified-chinese)
 
 - ### 支援的延伸套件 / Supported Extensions
-	- antoinefr-money
+  - antoinefr-money
   - cookie-consent
   - flagrow-ads
   - flagrow-bazaar
