@@ -75,6 +75,7 @@ https://vivaldi.club
   - reflar-gamification
   - reflar-koseki
   - reflar-level-ranks
+  - reflar-nightmode
   - reflar-polls
   - reflar-reactions
   - reflar-twofactor
