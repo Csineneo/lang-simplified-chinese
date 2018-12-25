@@ -30,7 +30,7 @@ flarum-subscriptions:
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: 自动关注我回复的主题
+      follow_after_reply_label: 自动关注回复的主题
       notify_new_post_label: 关注的主题有新回复
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
@@ -52,5 +52,5 @@ flarum-subscriptions:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     follow: 关注
-    following: 关注
-    ignoring: 无视
+    following: 已关注
+    ignoring: 忽略

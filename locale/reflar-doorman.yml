@@ -17,7 +17,7 @@ reflar-doorman:
         title: 邀请码
         help:
           key: "密钥：用户在注册时输入的邀请码"
-          group: "群组：用户将在注册时添加到的群组。"
+          group: "用户组：用户将在注册时添加到的用户组。"
           max: "最大使用次数：邀请码可以使用的最大次数，设置为 0 表示无限次使用。"
           activates: "激活用户：透过邀请码注册并自动激活用户。"
         warning: 此邀请码已使用其最大次数。
@@ -25,6 +25,6 @@ reflar-doorman:
         max_uses: 最大使用次数
         heading:
           key: 密钥
-          group: 群组
+          group: 用户组
           activate: 激活用户
           max_uses: 最大使用次数

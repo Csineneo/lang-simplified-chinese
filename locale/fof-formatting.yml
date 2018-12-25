@@ -8,5 +8,5 @@ fof-formatting:
       Autovideo: 转换视频链接为可播放的视频
       FancyPants: 使用精美的文本排版
       HTMLEntities: 使用 HTML entities
-      MediaEmbed: 嵌入来自允许的网站的内容
+      MediaEmbed: 嵌入来自支持的网站的内容
       PipeTables: ASCII 风格表格

@@ -7,20 +7,20 @@ flagrow-linguist:
             title: 翻译
             description: 自定义翻译
         buttons:
-            apply: 套用
-            reset: 复原
-            copy-original: 拷贝原文
+            apply: 应用
+            reset: 重置
+            copy-original: 复制原文
             load-more: 加载更多
         locales:
             all: 全部
         placeholder:
             not-translated: 未翻译
-            all-locales: 此处定义的文本将显示于全部语言中
+            all-locales: 此处设置的文本将显示于全部语言中
             hint: 原文内容： 
         filters:
-            search: 搜索翻译字符串...
-            with-own-translations: 我的翻译
-            with-original-translations-in-locales: 带有原文翻译于
-            without-original-translations-in-locales: 不带原文翻译于
-            for-extension: 适用于插件
+            search: 搜索...
+            with-own-translations: 自定义翻译
+            with-original-translations-in-locales: 有原文翻译
+            without-original-translations-in-locales: 无原文翻译
+            for-extension: 指定插件
             results: 显示 {shown} 条匹配翻译，共 {total} 条 

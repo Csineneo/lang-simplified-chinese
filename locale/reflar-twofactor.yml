@@ -25,10 +25,10 @@ reflar-twofactor:
       authy_heading: Authy 设置
       phone_heading: 短信认证
       helpQR: 扫描 QR 图码，或者手动添加编码至 Google Authenticator 或其他 TOTP 应用程序。
-      helpPhone: '选择你的运营商，填入电话号码并点击「保存电话号码」'
-      helpPhone2: '你现在应该收到带有认证码的短信，在下面输入并点击「提交」'
-      helpAuthy: '选择国家，输入你的电话号码并点击「设置」'
-      helpAuthy2: '你现在应该收到包含 Authy 设置的说明的文本，或者来自 Authy 应用程序的通知。设置完成后，在下面输入认证码并点击「提交」'
+      helpPhone: '选择你的运营商，填入电话号码并点击“保存电话号码”'
+      helpPhone2: '你现在应该收到带有认证码的短信，在下面输入并点击“提交”'
+      helpAuthy: '选择国家，输入你的电话号码并点击“设置”'
+      helpAuthy2: '你现在应该收到包含 Authy 设置的说明的文本，或者来自 Authy 应用程序的通知。设置完成后，在下面输入认证码并点击“提交”'
       submitPhone: 保存电话号码
       otSetup: 设置
       placeholder: 一次性密码

@@ -8,5 +8,5 @@ flarum-akismet:
 
   forum:
     post:
-      akismet_flagged_text: Akismet 标记为垃圾
-      not_spam_button: 不是垃圾
+      akismet_flagged_text: Akismet 标记为垃圾内容
+      not_spam_button: 不是垃圾内容

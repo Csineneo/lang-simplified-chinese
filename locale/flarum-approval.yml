@@ -5,7 +5,7 @@ flarum-approval:
     permissions:
       approve_posts_label: 审核主题
       reply_without_approval_label: 无需审核直接回复
-      start_discussions_without_approval_label: 无需审核直接发文
+      start_discussions_without_approval_label: 无需审核直接发布主题
 
   forum:
     badge:
@@ -16,4 +16,4 @@ flarum-approval:
       approve_button: 审核
 
   ref:
-    awaiting_approval: 等候审核
+    awaiting_approval: 待审核

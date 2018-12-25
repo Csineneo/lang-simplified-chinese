@@ -4,16 +4,16 @@
 flagrow-telegram:
   admin:
     settings:
-      title: Telegram 設定
+      title: Telegram 设置
 
       field:
-        botUsername: Bot Username
+        botUsername: Bot 用户名
         botToken: Bot Token
-        enableNotifications: 啟用通知
+        enableNotifications: 启用通知
 
   forum:
-    log_in_with_telegram_button: 透過 Telegram 帳號登入
+    log_in_with_telegram_button: 通过 Telegram 账号登录
 
     settings:
       notify_by_telegram_heading: Telegram
-      unblock_telegram_bot: 看起來你沒有通過認證或者阻攔了 Telegram bot，請使用 Telegram 傳送訊息給 <a>{username}</a> 以重新啟用通知
+      unblock_telegram_bot: 看起来你没有通过验证或者拦截了 Telegram bot，请使用 Telegram 发送消息給 <a>{username}</a> 以重新启用通知

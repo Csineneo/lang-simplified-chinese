@@ -20,4 +20,4 @@ flarum-auth-twitter:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      with_twitter_button: 透过 Twitter 帐号登录
+      with_twitter_button: 通过 Twitter 帐号登录

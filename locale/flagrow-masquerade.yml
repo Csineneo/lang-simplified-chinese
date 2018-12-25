@@ -5,58 +5,58 @@ flagrow-masquerade:
     forum:
         alerts:
             profile-completion-required: >
-                請完成以下必填項
+                请填写以下必填项
         buttons:
-            view-profile: 查看資料卡
-            save-profile: 儲存
+            view-profile: 查看资料
+            save-profile: 保存
         fields:
             select:
-                none-optional: 未選擇任何選項（可選）
-                none-required: 請選擇一個選項（必選）
+                none-optional: 未选择任何选项（可选）
+                none-required: 请选择一个选项（必选）
             boolean:
                 yes: 是
                 no: 否
     admin:
         buttons:
-            add-field: 新增欄位
-            edit-field: 編輯欄位
-            delete-field: 刪除欄位
+            add-field: 新增字段
+            edit-field: 编辑字段
+            delete-field: 删除字段
         permissions:
-            have-profile: 有 masquerade 資料卡
-            view-profile: 查看 masquerade 資料卡
+            have-profile: 拥有 masquerade 资料
+            view-profile: 查看 masquerade 资料
         menu:
             description: >
-                配置用戶資料卡欄位
+                配置用户资料字段
         fields:
-            add: 新增欄位 {field}
-            edit: 編輯欄位 {field}
-            name: 欄位名稱
+            add: 新增字段 {field}
+            edit: 编辑字段 {field}
+            name: 字段名称
             name-help: >
-                公開可見且不可翻譯的欄位標籤
-            description: 欄位說明
+                公开可见且不可翻译的字段标签
+            description: 字段说明
             description-help: >
-                可選說明以解釋這個欄位的用途
-            required: 標記為必填項
-            on_bio: 在使用者個人資料總顯示這個欄位
-            type: 類型
-            validation: 校驗
+                可选说明以解释这个字段的用途
+            required: 标记为必填项
+            on_bio: 在用户个人资料总显示此字段
+            type: 类型
+            validation: 验证
             validation-help: >
-                查看支援的 <a>Laravel validation rules</a>，例如:
+                查看支持的 <a>Laravel 验证规则</a>，例如:
                 "string,min:5" 或 "url".
-            prefix: 欄位前綴
+            prefix: 字段前缀
             prefix-help: >
-                在這個欄位前顯示填寫的內容
-            icon: 小圖示
+                在这个字段前显示填写的内容
+            icon: 小图标
             icon-help: >
-                在這個欄位前顯示小圖示。可用的小圖示請查看 <a>FontAwesome 網站</a>，無需「fa-」前綴
-            force-user-to-completion: 強制使用者必須完成資料卡
-            disable-user-bio: 停用使用者個人資料欄位
-            options: 選項
-            option-new: 新增選項
-            option-coma-warning: 選項標籤不能含有逗號「,」
+                在这个字段前显示小图标。可用的小图标请查看 <a>Font Awesome 官网</a>，无需「fa-」前缀
+            force-user-to-completion: 强制用户必须填写资料
+            disable-user-bio: 停用用户个人资料字段
+            options: 选项
+            option-new: 新增选项
+            option-coma-warning: 选项标签不能含有逗号 (,)
         types:
-            advanced: 高階
-            boolean: 複選框
-            email: 郵箱
-            select: 下拉選單
-            url: 連結
+            advanced: 高级
+            boolean: 复选框
+            email: 邮箱
+            select: 下拉菜单
+            url: 链接

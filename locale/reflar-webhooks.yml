@@ -9,7 +9,7 @@ reflar-webhooks:
         title: "已重命名主题 `{1}`"
         description: "新标题: {1}"
       hidden: "已隐藏主题 `{1}`"
-      restored: "已复原主题 `{1}`"
+      restored: "已恢复主题 `{1}`"
       deleted: "已删除的主题 `{1}`"
 
     group:
@@ -21,7 +21,7 @@ reflar-webhooks:
       posted: "已添加回复于 `{1}`"
       revised: "已编辑回复于 `{1}`"
       hidden: "隐藏回复于 `{1}`"
-      restored: "已复原回复于 `{1}`"
+      restored: "已恢复回复于 `{1}`"
       deleted: "已删除回复于 `{1}`"
 
     user:
@@ -96,4 +96,4 @@ reflar-webhooks:
     deleted: 已删除
     hidden: 已隐藏
     renamed: 已重命名
-    restored: 已复原
+    restored: 已恢复

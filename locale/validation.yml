@@ -107,5 +107,5 @@ validation:
 
   custom:
     username:
-      regex: "用户名仅能包含字母、数字、短划线"
+      regex: "用户名只能包含字母、数字及横线 (-)"
 

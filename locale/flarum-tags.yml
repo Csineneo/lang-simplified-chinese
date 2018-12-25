@@ -19,7 +19,7 @@ flarum-tags:
       delete_tag_button: 删除标签
       delete_tag_confirmation: "确定要删除此标签？此标签下的主题将不会被删除。"
       description_label: 说明
-      hide_label: 从「全部主题」中隐藏
+      hide_label: 从“全部主题”中隐藏
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: 英文名称
@@ -28,7 +28,7 @@ flarum-tags:
 
     # These translations are used in the navigation bar.
     nav:
-      tags_button: 标签设置
+      tags_button: 标签
       tags_text: 管理论坛标签列表
 
     # These translations are used in the Permissions page of the admin interface.
@@ -48,7 +48,7 @@ flarum-tags:
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "标签用于分类主题。主标签类似于传统论坛的板块；次标签无层级或顺序，可作为子分类。"
+      about_tags_text: "标签用于分类主题。主标签类似于传统论坛的板块，可以分成两级；次标签无层级或顺序，可作为子板块。"
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: 主标签
       secondary_heading: 次标签
@@ -61,7 +61,7 @@ flarum-tags:
     choose_tags:
       choose_primary_placeholder: "选择主标签|选择 {count} 个主标签"
       choose_secondary_placeholder: "选择次标签|选择 {count} 个次标签"
-      edit_title: "更改「{title}」的标签"
+      edit_title: "更改“{title}”的标签"
       submit_button: => core.ref.okay
       title: 添加标签
 
@@ -101,6 +101,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: 添加标签
+    create_tag: 标签
     name: 标签名称
     tags: 标签

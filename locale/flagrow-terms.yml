@@ -34,21 +34,21 @@ flagrow-terms:
             url: 链接
             url-help: 可以阅读服务条款的页面链接，点击后在新页面开启。
             update-message: 更新消息
-            update-message-help: 向未接受最新条款的会员显示的消息。
+            update-message-help: 向未接受最新条款的用户显示的消息。
             terms-updated-at: 更新于
             terms-updated-at-placeholder: YYYY-MM-DD (hh:mm:ss)
             terms-updated-at-help: >
                 服务条款最后更新日期。
-                设置此值将要求已接受条款的会员再次接受条款。
-                必须为过去的时间（否则会员将无法在日期之后接受并跳过对话框）。
+                设置此值将要求已接受条款的用户再次接受条款。
+                必须为过去的时间（否则用户将无法在日期之后接受并跳过对话框）。
             export-url: 导出链接
             export-url-help: >
-                具有权限「导出全部条款数据」的会员可以访问以下链接以下载接受条款的会员列表。
+                具有权限「导出全部条款数据」的用户可以访问以下链接以下载接受条款的用户列表。
                 你可以在 <a>插件 wiki</a> 上找到更多关于此选项的详细信息。
         permissions:
-            see-user-policies-state: 查看会员服务条款状态
+            see-user-policies-state: 查看用户服务条款状态
             postpone-policies-accept: 允许推迟接受新服务条款
-            export-policies: 导出全部会员及服务条款信息
+            export-policies: 导出全部用户及服务条款信息
 
     forum:
         signup:
@@ -64,7 +64,7 @@ flagrow-terms:
             close: 你现在可以关闭此对话框
 
         state-modal:
-            title: 会员 {username} 服务条款接受状态
+            title: 用户 {username} 服务条款接受状态
             accepted-at: 接受于 {date}
             not-accepted: 不接受
 

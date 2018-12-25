@@ -13,7 +13,7 @@ flagrow-ads:
                 title: 主题间的广告位
                 placeholder: => flagrow-ads.admin.positions.under-header.placeholder
             under-nav-items:
-                title: 首页左侧节点列表下的广告位
+                title: 首页左侧标签列表下的广告位
                 placeholder: => flagrow-ads.admin.positions.under-header.placeholder
         settings:
             start-from-post: 指定从第几个主题开始显示广告

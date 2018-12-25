@@ -8,12 +8,12 @@ flagrow-split:
 
     forum:
         post:
-            was_split_to: "{count} 个回复被分割至 {target}"
-            was_split_from: "{count} 个回复分割自 {target}"
+            was_split_to: "{count} 个回复被拆分至 {target}"
+            was_split_from: "{count} 个回复拆分自 {target}"
         split:
-            from: 于此处开始分割
-            to: 于此处结束分割
+            from: 开始拆分主题
+            to: 结束拆分主题
         modal:
-            title: 分割主题
-            new_discussion_label: 指定新主题标题
-            submit_button: 分割
+            title: 拆分主题
+            new_discussion_label: 设置新主题标题
+            submit_button: 确认

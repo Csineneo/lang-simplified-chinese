@@ -17,15 +17,15 @@ flarum-suspend:
   forum:
     # These translations are used in the suspension notifications
     notifications:
-      user_suspended_text: "{username} 封禁了你 {timeReadable}"
-      user_unsuspended_text: "{username} 封禁了你"
+      user_suspended_text: "{username} 将你封禁了 {timeReadable}"
+      user_unsuspended_text: "{username} 将你解封了"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: 无限期封禁
-      limited_time_label: 有限期封禁...
+      indefinitely_label: 永久封禁
+      limited_time_label: 暂时封禁...
       limited_time_days_text: " 天"
-      not_suspended_label: 不封禁
+      not_suspended_label: 未封禁
       status_heading: 封禁状态
       submit_button: => core.ref.save_changes
       title: "{username} 已被封禁"

@@ -13,13 +13,13 @@ flagrow-upload:
         templates:
           image: 默认图片下载模板
           image_description: >
-              显示图片缩略图并经由 php 代理下载，支持统计及热链保护
+              显示图片缩略图并经由 PHP 代理下载，支持统计及热链保护
           file: 默认文件下载模板
           file_description: >
-              显示文件名称及基本信息，经由 php 代理下载，支持统计及热链保护
+              显示文件名称及基本信息，经由 PHP 代理下载，支持统计及热链保护
           image-preview: 完整图片预览模板
           image-preview_description: >
-              于行内显示完整图片。不支持下载、统计及热链保护
+              直接显示完整图片。不支持下载、统计及热链保护
         permissions:
             upload_label: 上传文件
             download_label: 下载文件
@@ -81,8 +81,8 @@ flagrow-upload:
             resize: >
                 您可以选择是否在上传图片前调整图片大小，您也可以设置图片最大长宽（px），图片大小调整将会保持图片长宽比例
             watermark: >
-                在图片上传时添加水印，仅支持非 gif 图片
+                在图片上传时添加水印，仅支持非 GIF 图片。
             disable-hotlink-protection: >
-                热链保护可防止从其他站点下载。目前的方式需求 csrf token 及帖文 ID
+                热链保护可防止从其他站点下载。目前的方式需要 CSRF Token 及主题 ID。
             disable-download-logging: >
                 开启此设置可查看下载量及未来可能的统计数据。

@@ -1,16 +1,16 @@
-### Flarum 中文語言包 / Chinese Language Pack
+### Flarum 简体中文语言包 / Chinese Language Pack
 
 - ### 需求 / Requirement
-Flarum v0.1.0-beta.8 and newer
+Flarum v0.1.0-beta.8 及更高版本
 
 
-- ### 安裝 / Installation
+- ### 安装 / Installation
 ```
 composer require csineneo/lang-traditional-chinese
 composer require csineneo/lang-simplified-chinese
 ```
 
-- ### 移除 / Remove
+- ### 卸载 / Remove
 ```
 composer remove csineneo/lang-traditional-chinese
 composer remove csineneo/lang-simplified-chinese
@@ -19,17 +19,17 @@ composer remove csineneo/lang-simplified-chinese
 - ### 示例 / Demo
 https://vivaldi.club 
 
-- ### 回報問題 / Report Issue
-    - 正體中文 / Traditional Chinese: [Github](https://github.com/Csineneo/lang-traditional-chinese/issues)
-    - 簡體中文 / Simplified Chinese: [Github](https://github.com/Csineneo/lang-simplified-chinese/issues)
-    - 論壇 / Forum: [vivaldi.club](https://vivaldi.club/t/flarum)
+- ### 报告问题 / Report Issue
+    - 繁体中文 / Traditional Chinese: [Github](https://github.com/Csineneo/lang-traditional-chinese/issues)
+    - 简体中文 / Simplified Chinese: [Github](https://github.com/Csineneo/lang-simplified-chinese/issues)
+    - 论坛 / Forum: [vivaldi.club](https://vivaldi.club/t/flarum)
 
-- ### 連結 / Links
+- ### 链接 / Links
     - Forum: [Flarum](https://discuss.flarum.org/d/17954), [vivaldi.club](https://vivaldi.club/d/8298)
-    - Github: [正體中文](https://github.com/Csineneo/lang-traditional-chinese), [簡體中文](https://github.com/Csineneo/lang-simplified-chinese)
-    - Packagist: [正體中文](https://packagist.org/packages/csineneo/lang-traditional-chinese), [簡體中文](https://packagist.org/packages/csineneo/lang-simplified-chinese)
+    - Github: [繁体中文](https://github.com/Csineneo/lang-traditional-chinese), [简体中文](https://github.com/Csineneo/lang-simplified-chinese)
+    - Packagist: [繁体中文](https://packagist.org/packages/csineneo/lang-traditional-chinese), [简体中文](https://packagist.org/packages/csineneo/lang-simplified-chinese)
 
-- ### 支援的延伸套件 / Supported Extensions
+- ### 支持的扩展 / Supported Extensions
   - antoinefr-money
   - cookie-consent
   - flagrow-ads

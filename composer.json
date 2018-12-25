@@ -1,6 +1,6 @@
 {
 	"name": "csineneo/lang-simplified-chinese",
-	"description": "适用于 Flarum v0.1.0-beta.8 及更新版本的简体中文语言包",
+	"description": "适用于 Flarum v0.1.0-beta.8 及更高版本的简体中文语言包",
 	"keywords": [
 		"flarum",
 		"locale",
@@ -34,7 +34,7 @@
 				}
 		},
 		"flarum-locale": {
-			"code": "zh-tw",
+			"code": "zh-hans",
 			"title": "简体中文"
 		}
 	}
