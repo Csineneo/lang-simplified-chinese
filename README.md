@@ -32,6 +32,7 @@ https://vivaldi.club
 - ### 支持的扩展 / Supported Extensions
   - antoinefr-money
   - cookie-consent
+  - fajuu-contactbutton
   - flagrow-ads
   - flagrow-bazaar
   - flagrow-byobu
