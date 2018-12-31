@@ -81,4 +81,5 @@ https://vivaldi.club
   - reflar-reactions
   - reflar-twofactor
   - reflar-webhooks
+  - saleksin-auth-google
   - wuethrich44-sso
