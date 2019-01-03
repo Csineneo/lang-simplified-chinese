@@ -66,6 +66,7 @@ https://vivaldi.club
   - fof-custom-footer
   - fof-default-group
   - fof-formatting
+  - fof-pages
   - fof-secure-https
   - fof-spamblock
   - fof-transliterator
