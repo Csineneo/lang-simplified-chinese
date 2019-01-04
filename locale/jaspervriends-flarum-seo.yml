@@ -1,0 +1,7 @@
+# https://github.com/jaspervriends/flarum-seo/blob/master/locale/en.yml
+# Fri, 04 Jan 2019 22:33:24 +0800
+
+jaspervriends-flarum-seo:
+  forum:
+    profile_title: "{username} 的档案"
+    profile_description: "{username} 的档案 | {discussion_count} 篇主题 | {comment_count} 篇回复"

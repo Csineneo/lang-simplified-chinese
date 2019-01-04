@@ -12,7 +12,7 @@ fof-prevent-necrobumping:
 
   admin:
     settings:
-      days_label: 天
+      days_label: 天数
       days_help: 如果主题最后一次回复时间超过限定天数，则这个主题将被标记为旧贴。
 
       message_title_label: 自定义警告标题

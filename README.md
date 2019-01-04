@@ -73,6 +73,7 @@ https://vivaldi.club
   - fof-spamblock
   - fof-transliterator
   - fof-userbio
+  - jaspervriends-flarum-seo
   - michaelBelgium-profile-views
   - migratetoflarum-vbulletin-redirects
   - mybbtoflarum
