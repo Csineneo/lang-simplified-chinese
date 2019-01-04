@@ -32,6 +32,7 @@ https://vivaldi.club
 - ### 支持的扩展 / Supported Extensions
   - antoinefr-money
   - cookie-consent
+  - backtowebsite
   - fajuu-contactbutton
   - flagrow-ads
   - flagrow-bazaar
@@ -67,12 +68,14 @@ https://vivaldi.club
   - fof-default-group
   - fof-formatting
   - fof-pages
+  - fof-prevent-necrobumping
   - fof-secure-https
   - fof-spamblock
   - fof-transliterator
   - fof-userbio
   - michaelBelgium-profile-views
   - migratetoflarum-vbulletin-redirects
+  - mybbtoflarum
   - reflar-doorman
   - reflar-gamification
   - reflar-koseki
