@@ -1,41 +1,41 @@
 {
-	"name": "csineneo/lang-simplified-chinese",
-	"description": "适用于 Flarum v0.1.0-beta.8 及更高版本的简体中文语言包",
-	"keywords": [
-		"flarum",
-		"locale",
-		"Chinsese",
-		"中文"
-	],
-	"type": "flarum-extension",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Csineneo",
-			"email": "csineneo@gmail.com",
-			"homepage": "https://vivaldi.club"
-		}
-	],
-	"support": {
-		"source": "https://github.com/Csineneo/lang-simplified-chinese",
-		"issues": "https://vivaldi.club/t/flarum"
-	},
-	"require": {
-		"flarum/core": "^0.1.0-beta.8"
-	},
-	"extra": {
-		"flarum-extension": {
-			"title": "简体中文语言包",
-				"icon": {
-					"image": "icon.svg",
-					"backgroundColor": "#fff",
-					"backgroundSize": "cover",
-					"backgroundPosition": "center"
-				}
-		},
-		"flarum-locale": {
-			"code": "zh-hans",
-			"title": "简体中文"
-		}
-	}
+  "name": "csineneo/lang-simplified-chinese",
+  "description": "适用于 Flarum v0.1.0-beta.8 及更高版本的简体中文语言包",
+  "keywords": [
+    "flarum",
+    "locale",
+    "Chinsese",
+    "中文"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Csineneo",
+      "email": "csineneo@gmail.com",
+      "homepage": "https://vivaldi.club"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/Csineneo/lang-simplified-chinese",
+    "issues": "https://vivaldi.club/t/flarum"
+  },
+  "require": {
+    "flarum/core": "^0.1.0-beta.8"
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "简体中文语言包",
+        "icon": {
+          "image": "icon.svg",
+          "backgroundColor": "#fff",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center"
+        }
+    },
+    "flarum-locale": {
+      "code": "zh-hans",
+      "title": "简体中文"
+    }
+  }
 }
