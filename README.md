@@ -83,6 +83,7 @@ https://vivaldi.club
   - reflar-level-ranks
   - reflar-nightmode
   - reflar-polls
+  - reflar-pwned-passwords
   - reflar-reactions
   - reflar-twofactor
   - reflar-webhooks
