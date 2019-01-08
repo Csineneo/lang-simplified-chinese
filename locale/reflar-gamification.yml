@@ -1,5 +1,5 @@
-# https://github.com/ReFlar/gamification/blob/master/locale/en.yml
-# Sat, 08 Dec 2018 16:54:32 +0800
+# https://github.com/ReFlar/gamification/blob/master/resources/locale/en.yml
+# Tue, 08 Jan 2019 15:21:15 +0800
 
 core:
   forum:
@@ -25,7 +25,7 @@ reflar-gamification:
       title: 打分
       upvotes_label: 顶
       downvotes_label: 踩
-    mod_item: 投票者
+    mod_item: 投票人
   admin:
     permissions:
       vote_label: 顶/踩帖文
