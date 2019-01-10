@@ -1,4 +1,4 @@
-## Flarum 简体中文语言包 / Chinese Language Pack
+## Flarum 简体中文语言包 / Simplified Chinese Language Pack
 
 ### 需求 / Requirement
   - Flarum v0.1.0-beta.8 及更高版本
