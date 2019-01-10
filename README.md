@@ -1,35 +1,26 @@
-### Flarum 简体中文语言包 / Chinese Language Pack
+## Flarum 简体中文语言包 / Chinese Language Pack
 
-- ### 需求 / Requirement
-Flarum v0.1.0-beta.8 及更高版本
+### 需求 / Requirement
+  - Flarum v0.1.0-beta.8 及更高版本
 
 
-- ### 安装 / Installation
-```
-composer require csineneo/lang-traditional-chinese
-composer require csineneo/lang-simplified-chinese
-```
+### 安装 / Installation
+	```
+	composer require csineneo/lang-traditional-chinese
+	composer require csineneo/lang-simplified-chinese
+	```
 
-- ### 卸载 / Remove
-```
-composer remove csineneo/lang-traditional-chinese
-composer remove csineneo/lang-simplified-chinese
-```
+### 卸载 / Remove
+	```
+	composer remove csineneo/lang-traditional-chinese
+	composer remove csineneo/lang-simplified-chinese
+	```
 
-- ### 示例 / Demo
-https://vivaldi.club 
+### 本地化 / Localization
+  - 调整时间格式
+  - 优化简体中文字体显示
 
-- ### 报告问题 / Report Issue
-    - 繁体中文 / Traditional Chinese: [Github](https://github.com/Csineneo/lang-traditional-chinese/issues)
-    - 简体中文 / Simplified Chinese: [Github](https://github.com/Csineneo/lang-simplified-chinese/issues)
-    - 论坛 / Forum: [vivaldi.club](https://vivaldi.club/t/flarum)
-
-- ### 链接 / Links
-    - Forum: [Flarum](https://discuss.flarum.org/d/17954), [vivaldi.club](https://vivaldi.club/d/8298)
-    - Github: [繁体中文](https://github.com/Csineneo/lang-traditional-chinese), [简体中文](https://github.com/Csineneo/lang-simplified-chinese)
-    - Packagist: [繁体中文](https://packagist.org/packages/csineneo/lang-traditional-chinese), [简体中文](https://packagist.org/packages/csineneo/lang-simplified-chinese)
-
-- ### 支持的扩展 / Supported Extensions
+### 支持的扩展 / Supported Extensions
   - antoinefr-money
   - cookie-consent
   - backtowebsite
@@ -90,3 +81,17 @@ https://vivaldi.club
   - saleksin-auth-google
   - wuethrich44-sso
   - v17development-flarum-seo
+
+### 示例 / Demo
+	https://vivaldi.club 
+
+### 报告问题 / Report Issue
+	- 繁体中文 / Traditional Chinese: [Github](https://github.com/Csineneo/lang-traditional-chinese/issues)
+	- 简体中文 / Simplified Chinese: [Github](https://github.com/Csineneo/lang-simplified-chinese/issues)
+	- 论坛 / Forum: [vivaldi.club](https://vivaldi.club/t/flarum)
+
+### 链接 / Links
+	- Forum: [Flarum](https://discuss.flarum.org/d/17954), [vivaldi.club](https://vivaldi.club/d/8298)
+	- Github: [繁体中文](https://github.com/Csineneo/lang-traditional-chinese), [简体中文](https://github.com/Csineneo/lang-simplified-chinese)
+	- Packagist: [繁体中文](https://packagist.org/packages/csineneo/lang-traditional-chinese), [简体中文](https://packagist.org/packages/csineneo/lang-simplified-chinese)
+
