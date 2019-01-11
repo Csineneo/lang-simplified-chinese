@@ -61,6 +61,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-links
   - fof-pages
   - fof-prevent-necrobumping
+  - fof-recaptcha
   - fof-secure-https
   - fof-spamblock
   - fof-transliterator

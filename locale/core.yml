@@ -426,6 +426,7 @@ core:
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
       kilo_text: 千
+      ten_kilo_text: 万
       mega_text: 百万
 
     # These translations are used to punctuate a series of items.
