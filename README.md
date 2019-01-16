@@ -29,6 +29,7 @@ composer remove csineneo/lang-simplified-chinese
   - flagrow-bazaar
   - flagrow-byobu
   - flagrow-fonts
+  - flagrow-html-errors
   - flagrow-impersonate
   - flagrow-linguist
   - flagrow-passport

@@ -8,7 +8,7 @@ reflar-level-ranks:
       levelText: 输入要显示的文本（例如：等级，级别）
   forum:
     desc:
-      expText: 经验值
+      expText: 点经验值
   lib:
     defaults:
       level: 等级
