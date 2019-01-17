@@ -26,6 +26,7 @@ composer remove csineneo/lang-simplified-chinese
   - backtowebsite
   - fajuu-contactbutton
   - flagrow-ads
+  - flagrow-analytics
   - flagrow-bazaar
   - flagrow-byobu
   - flagrow-fonts
