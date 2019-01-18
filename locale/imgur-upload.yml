@@ -1,0 +1,12 @@
+# https://github.com/matteocontrini/flarum-imgur-upload/blob/master/locale/en.yml
+# Fri, 18 Jan 2019 09:44:03 +0800
+
+imgur-upload:
+  admin:
+    settings:
+        title: Imgur 上传设置
+  forum:
+    upload: 点击或粘贴来上传
+    loading: 正在上传...
+    done: 完成！
+    error: 错误
