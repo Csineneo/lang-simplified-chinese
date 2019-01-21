@@ -16,7 +16,7 @@
 }
 
 /* Simplified Chinese */
-#font-face {
+@font-face {
   font-family: 'System SC';
   font-style: normal;
   font-weight: 400;
@@ -28,7 +28,7 @@
 }
 
 /*  Traditional Chinese */
-#font-face {
+@font-face {
   font-family: 'System TC';
   font-style: normal;
   font-weight: 400;
@@ -40,7 +40,7 @@
 }
 
 /* Monospace */
-#font-face {
+@font-face {
   font-family: 'System Mono';
   font-style: normal;
   font-weight: 400;
@@ -52,7 +52,7 @@
 }
 
 /* Emoji */
-#font-face {
+@font-face {
   font-family: 'System Emoji';
   font-style: normal;
   font-weight: normal;
