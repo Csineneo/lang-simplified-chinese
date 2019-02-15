@@ -5,3 +5,4 @@ flarum_profile_views:
   forum:
     user:
       views_count_text: 被浏览 {viewcount} 次 
+      title_last_viewers: 最后的访问者
