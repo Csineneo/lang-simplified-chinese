@@ -1,6 +1,12 @@
 # https://github.com/oaklinq/flarum-signup-button/blob/master/resources/locale/en.yml
-# Sat, 09 Feb 2019 09:51:22 +0800
+# Tue, 26 Feb 2019 14:26:44 +0800
 
 kvothe-sub:
   forum:
     signup: 注册
+  admin:
+    settings:
+      title: 注册按钮设置
+      field:
+        hide-desktop: 不在桌面版显示按钮
+        replace-discussion-button: 替换首页发布主题按钮
