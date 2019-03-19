@@ -5,6 +5,9 @@ flarum-best-answer:
     admin:
         permissions:
             best_answer: => flarum-best-answer.ref.best_answer
+        settings:
+            title: "最佳回复设置"
+            allow_select_own_post: "允许选择自己的回复"
     forum:
         this_best_answer: "设为最佳回复"
         remove_best_answer: "移除最佳回复"

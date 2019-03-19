@@ -1,0 +1,25 @@
+# https://github.com/flagrow/user-directory/blob/master/resources/locale/en.yml
+# Tue, 19 Mar 2019 10:56:44 +0800
+
+flagrow-user-directory:
+    forum:
+        search:
+            users_heading: '在全部用户中搜索「{query}」'
+        page:
+            nav: 会员名录
+            sort:
+                relevance: 相关度
+                default: 默认
+                username_az: 会员名 (a-z)
+                username_za: 会员名 (z-a)
+                newest: 最新
+                oldest: 最老
+                seen_recent: 最近上线
+                seen_oldest: 离开最久
+                most_posts: 最多回复
+                least_posts: 最少回复
+                most_discussions: 最多主题
+                least_discussions: 最少主题
+    admin:
+        permissions:
+            view_user_directory: 查看会员名录

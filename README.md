@@ -37,6 +37,7 @@ composer remove csineneo/lang-simplified-chinese
   - flagrow-split
   - flagrow-terms
   - flagrow-upload
+  - flagrow-user-directory
   - flarum-akismet
   - flarum-approval
   - flarum-auth-facebook
