@@ -21,6 +21,7 @@ composer remove csineneo/lang-simplified-chinese
   - 优化简体中文字体显示
 
 ### 支持的扩展 / Supported Extensions
+  - amaurycarrade-syndication
   - antoinefr-money
   - cookie-consent
   - backtowebsite
