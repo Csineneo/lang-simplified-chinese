@@ -63,6 +63,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-default-group
   - fof-formatting
   - fof-links
+  - fof-merge-discussions
   - fof-pages
   - fof-prevent-necrobumping
   - fof-recaptcha

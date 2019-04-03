@@ -1,0 +1,23 @@
+# https://github.com/FriendsOfFlarum/merge-discussions/blob/master/resources/locale/en.yml
+# Wed, 03 Apr 2019 13:59:24 +0800
+
+fof-merge-discussions:
+  forum:
+    modal:
+      title: 合并主题
+      help_text: 选择主题合并至至 <b>{title}</b>.
+      load_preview_button: 预览
+      submit_button: => fof-merge-discussions.ref.merge
+
+    discussion:
+      merge: => fof-merge-discussions.ref.merge
+
+    post:
+      merged: 已合并 {titles} 的 <b>{count}</b> 篇回复。|已合并 {titles} 的 <b>{count}</b> 篇回复。
+
+  admin:
+    permissions:
+      merge_discussions_label: 合并主题
+
+  ref:
+    merge: 合并
