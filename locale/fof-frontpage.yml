@@ -1,0 +1,15 @@
+# https://github.com/FriendsOfFlarum/frontpage/blob/master/resources/locale/en.yml
+# Sun, 14 Apr 2019 10:24:11 +0800
+
+core:
+  forum:
+    index_sort:
+      front_button: 首页
+    badge:
+      frontpage_tooltip: 标记为首页主题
+    post_controls:
+      push_to_front_button: 推至首页
+      pull_from_front_button: 从首页撤下
+  admin:
+    permissions:
+      can_push_to_frontpage_label: 可推至首页
