@@ -49,6 +49,7 @@ composer remove csineneo/lang-simplified-chinese
   - flarum-best-answer
   - flarum-discussion-views
   - flarum-emoji
+  - flarum-ext-fancybox
   - flarum-flags
   - flarum-likes
   - flarum-lock
