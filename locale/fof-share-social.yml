@@ -1,0 +1,25 @@
+# https://github.com/FriendsOfFlarum/share-social/blob/master/resources/locale/en.yml
+# Wed, 19 Jun 2019 19:54:17 +0800
+
+fof-share-social:
+  forum:
+    discussion:
+      share_button: 分享
+
+    modal:
+      title: 分享
+
+  admin:
+    settings:
+      title: FoF 社交分享
+
+  lib:
+    networks:
+      facebook: Facebook
+      twitter: Twitter
+      linkedin: LinkedIn
+      reddit: Reddit
+
+      vkontakte: VKontakte
+      odnoklassniki: Odnoklassniki
+      my_mail: My World

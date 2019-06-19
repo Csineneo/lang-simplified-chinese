@@ -62,6 +62,7 @@ composer remove csineneo/lang-simplified-chinese
   - flarum-subscriptions
   - flarum-suspend
   - flarum-tags
+  - fof-auth-gitlab
   - fof-custom-footer
   - fof-default-group
   - fof-formatting
@@ -72,6 +73,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-prevent-necrobumping
   - fof-recaptcha
   - fof-secure-https
+  - fof-share-social
   - fof-socialprofile
   - fof-spamblock
   - fof-transliterator
