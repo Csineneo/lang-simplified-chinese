@@ -65,6 +65,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-auth-gitlab
   - fof-custom-footer
   - fof-default-group
+  - fof-follow-tags
   - fof-formatting
   - fof-frontpage
   - fof-links

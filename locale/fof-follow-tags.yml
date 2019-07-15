@@ -5,7 +5,7 @@ fof-follow-tags:
   forum:
     settings:
       notify_new_discussion_label: 有人在我关注的节点中发帖
-      notify_new_post_label: 有人在握关注的节点中回复
+      notify_new_post_label: 有人在我关注的节点中回复
 
 
     index:
@@ -18,7 +18,7 @@ fof-follow-tags:
       following_button: => fof-follow-tags.ref.following
       following_text: 有新主题时提醒
       hiding_button: => fof-follow-tags.ref.hiding
-      hiding_text: 在全部主题页面隐藏主题
+      hiding_text: 在全部主题页面隐藏
       ignoring_button: => fof-follow-tags.ref.ignoring
       ignoring_text: 从不提醒
       lurking_button: => fof-follow-tags.ref.lurking
@@ -38,7 +38,7 @@ fof-follow-tags:
 
   ref:
     follow: 关注
-    following: 正在关注
+    following: 已关注
     hiding: 已隐藏
     ignoring: 已忽略
-    lurking: 潜水中
+    lurking: 吃瓜中
