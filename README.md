@@ -114,3 +114,6 @@ composer remove csineneo/lang-simplified-chinese
   - Github: [繁体中文](https://github.com/Csineneo/lang-traditional-chinese), [简体中文](https://github.com/Csineneo/lang-simplified-chinese)
   - Packagist: [繁体中文](https://packagist.org/packages/csineneo/lang-traditional-chinese), [简体中文](https://packagist.org/packages/csineneo/lang-simplified-chinese)
 
+### 捐贈 / Donate
+請我喝杯咖啡 \^_\^
+![](https://awk.tw/assets/images/reward.jpg)
