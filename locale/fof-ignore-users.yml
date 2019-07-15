@@ -1,0 +1,14 @@
+# https://github.com/FriendsOfFlarum/ignore-users/blob/master/resources/locale/en.yml
+# Mon, 15 Jul 2019 10:36:36 +0800
+
+fof-ignore-users:
+  admin:
+    permissions:
+      can_not_be_ignored_label: 不可被无视
+
+  forum:
+    user_controls:
+      ignore_button: 无视
+      ignore_confirmation: 您想要无视此人？
+      unignore_button: 取消无视
+      unignore_confirmation: 您想要取消无视此人？
