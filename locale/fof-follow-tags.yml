@@ -1,0 +1,44 @@
+# https://github.com/FriendsOfFlarum/follow-tags/blob/master/resources/locale/en.yml
+# Mon, 15 Jul 2019 10:36:36 +0800
+
+fof-follow-tags:
+  forum:
+    settings:
+      notify_new_discussion_label: 有人在我关注的节点中发帖
+      notify_new_post_label: 有人在握关注的节点中回复
+
+
+    index:
+      follow_tag_button: 关注
+      unfollow_tag_button: 不关注
+
+
+    sub_controls:
+      follow_button: => fof-follow-tags.ref.follow
+      following_button: => fof-follow-tags.ref.following
+      following_text: 有新主题时提醒
+      hiding_button: => fof-follow-tags.ref.hiding
+      hiding_text: 在全部主题页面隐藏主题
+      ignoring_button: => fof-follow-tags.ref.ignoring
+      ignoring_text: 从不提醒
+      lurking_button: => fof-follow-tags.ref.lurking
+      lurking_text: 有新主题或新回复时提醒
+      not_following_button: 不关注
+      not_following_text: "仅当提及我时提醒"
+      notify_alert_tooltip: 有新主题或新回复时推送论坛内提醒
+      notify_email_tooltip: 有新主题或新回复时发送邮件提醒
+
+    notifications:
+      new_discussion_text: "{username} 发布了新主题"
+      new_post_text: "{username} 发布了新回复"
+
+  email:
+    newDiscussionInTag: "[节点 | 新主题] 标题"
+    newPostInTag: "[节点 | 新回复] 标题"
+
+  ref:
+    follow: 关注
+    following: 正在关注
+    hiding: 已隐藏
+    ignoring: 已忽略
+    lurking: 潜水中
