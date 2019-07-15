@@ -73,8 +73,8 @@ core:
       color_label: => core.ref.color
       delete_button: 删除用户组
       delete_confirmation: "是否删除此用户组？组内用户<strong>不会</strong>被删除。"
-      icon_label: 图标
-      icon_text: "输入任意 <a>Font Awesome</a> 图标名称，<strong>包括</strong>前缀 <code>fas fa-</code>"
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       name_label: 名称
       plural_placeholder: 用户组（例如：管理组）
       singular_placeholder: 用户组成员（例如：管理员）
@@ -89,19 +89,28 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: SMTP 帐号
       addresses_heading: 地址
-      driver_label: 模式
-      encryption_label: 加密方式
+      driver_heading: 选择驱动
+      driver_label: 驱动
       from_label: 发件地址
       heading: => core.ref.email
-      host_label: 域名
-      password_label: => core.ref.password
-      port_label: 端口
-      server_heading: SMTP 服务器
+      mail_encryption_label: 加密方式
+      mail_host_label: 主机
+      mail_mailgun_domain_label: 域名
+      mail_mailgun_secret_label: Secret key
+      mail_mandrill_secret_label: Secret key
+      mail_password_label: => core.ref.password
+      mail_port_label: 端口
+      mail_ses_key_label: Key
+      mail_ses_region_label: 区域
+      mail_ses_secret_label: Secret
+      mail_username_label: => core.ref.username
+      mailgun_heading: Mailgun 设置
+      mandrill_heading: Mandrill 设置
+      ses_heading: SES 设置
+      smtp_heading: SMTP 设置
       submit_button: => core.ref.save_changes
-      text: 配置 SMTP 设置及论坛发信地址
-      username_label: => core.ref.username
+      text: 配置论坛发信设置
 
     # These translations are used in the Extensions page.
     extensions:
@@ -454,6 +463,8 @@ core:
       403_message: 你没有权限访问此页面。
       404_message: 你访问的页面不存在。
       404_return_link: "返回 {forum}"
+      419_message: 你已经长时间没有活动。
+      419_return_link: 返回再试一次。
       500_message: 加载页面时出错。
       503_message: "{forum} 正在维护中，请稍后再访问。"
 
@@ -543,6 +554,8 @@ core:
     discussions: 主题
     edit: 编辑
     email: 邮箱
+    icon_label: 图标
+    icon_text: "输入任意 <a>Font Awesome</a> 图标名称，<strong>包括</strong>前缀 <code>fas fa-</code>"
     load_more: 加载更多
     log_in: 登录
     log_out: 注销
