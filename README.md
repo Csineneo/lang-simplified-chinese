@@ -23,6 +23,7 @@ composer remove csineneo/lang-simplified-chinese
 ### 支持的扩展 / Supported Extensions
   - amaurycarrade-syndication
   - antoinefr-money
+  - antoinefr-online
   - backtowebsite
   - cookie-consent
   - datitisev-dashboard
