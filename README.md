@@ -91,7 +91,6 @@ composer remove csineneo/lang-simplified-chinese
   - reflar-doorman
   - reflar-level-ranks
   - reflar-nightmode
-  - reflar-polls
   - reflar-pwned-passwords
   - reflar-reactions
   - reflar-twofactor
