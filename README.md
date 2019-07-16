@@ -25,7 +25,6 @@ composer remove csineneo/lang-simplified-chinese
   - antoinefr-money
   - antoinefr-online
   - backtowebsite
-  - cookie-consent
   - datitisev-dashboard
   - fajuu-contactbutton
   - flagrow-ads
@@ -87,6 +86,7 @@ composer remove csineneo/lang-simplified-chinese
   - michaelBelgium-profile-views
   - migratetoflarum-vbulletin-redirects
   - mybbtoflarum
+  - reflar-cookie-consent
   - reflar-doorman
   - reflar-gamification
   - reflar-koseki
