@@ -26,10 +26,10 @@ composer remove csineneo/lang-simplified-chinese
   - antoinefr-online
   - backtowebsite
   - datitisev-dashboard
+  - extiverse-bazaar
   - fajuu-contactbutton
   - flagrow-ads
   - flagrow-analytics
-  - flagrow-bazaar
   - flagrow-byobu
   - flagrow-fonts
   - flagrow-html-errors
