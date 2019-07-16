@@ -96,6 +96,7 @@ composer remove csineneo/lang-simplified-chinese
   - reflar-twofactor
   - reflar-webhooks
   - saleksin-auth-google
+  - tpokorra-post-notification
   - wuethrich44-sso
   - v17development-flarum-seo
 

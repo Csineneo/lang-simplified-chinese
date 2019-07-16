@@ -1,0 +1,12 @@
+# https://github.com/tpokorra/flarum-ext-post-notification/blob/master/resources/locale/en.yml
+# Tue, 16 Jul 2019 16:34:23 +0800
+
+tpokorra-post-notification:
+  admin:
+    settings:
+      title: 发帖通知设置
+
+      recipients.to: 逗号分隔的收件人列表
+      recipients.bcc: 逗号分隔的密送列表
+      new_post: 描述新帖的标签
+      revised_post: 描述编辑帖子的标签
