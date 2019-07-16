@@ -66,6 +66,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-follow-tags
   - fof-formatting
   - fof-frontpage
+  - fof-gamification
   - fof-ignore-users
   - fof-links
   - fof-merge-discussions
@@ -88,7 +89,6 @@ composer remove csineneo/lang-simplified-chinese
   - mybbtoflarum
   - reflar-cookie-consent
   - reflar-doorman
-  - reflar-gamification
   - reflar-koseki
   - reflar-level-ranks
   - reflar-nightmode
