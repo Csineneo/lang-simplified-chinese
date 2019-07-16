@@ -1,11 +1,17 @@
 # https://github.com/FriendsOfFlarum/merge-discussions/blob/master/resources/locale/en.yml
-# Wed, 03 Apr 2019 13:59:24 +0800
+# Tue, 16 Jul 2019 10:18:36 +0800
 
 fof-merge-discussions:
   forum:
     modal:
       title: 合并主题
-      help_text: 选择主题合并至至 <b>{title}</b>.
+
+      type_target_label: 合并至该主题
+      type_target_help_text: 选择主题合并至至 <b>{title}</b>.
+
+      type_from_label: 合并至另一主题
+      type_from_help_text: 选取合并 <b>{title}</b> 的目标主题
+
       load_preview_button: 预览
       submit_button: => fof-merge-discussions.ref.merge
 
@@ -13,7 +19,7 @@ fof-merge-discussions:
       merge: => fof-merge-discussions.ref.merge
 
     post:
-      merged: 已合并 {titles} 的 <b>{count}</b> 篇回复。|已合并 {titles} 的 <b>{count}</b> 篇回复。
+      merged: 已合并主题「{titles}」下的 <b>{count}</b> 篇回复。|已合并主题「{titles}」下的 <b>{count}</b> 篇回复。
 
   admin:
     permissions:
