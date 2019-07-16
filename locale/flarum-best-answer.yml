@@ -5,7 +5,7 @@ flarum-best-answer:
     admin:
         permissions:
             best_answer: 为自己的主题选定最佳回复
-            best_answer_not_own_discussion: 为他人主题选定最近回复
+            best_answer_not_own_discussion: 为他人主题选定最佳回复
         settings:
             title: "最佳回复设置"
             allow_select_own_post: "允许选择自己的回复"
