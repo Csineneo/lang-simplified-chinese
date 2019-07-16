@@ -1,5 +1,6 @@
 # https://github.com/flagrow/mason/blob/master/resources/locale/en.yml
-#
+# Tue, 16 Jul 2019 10:18:36 +0800
+
 flagrow-mason:
     forum:
         discussion-controls:
@@ -94,6 +95,9 @@ flagrow-mason:
             settings: 设置
             fields: 字段
         permissions:
-            update-own-fields: 更新自己帖文的 Mason 字段
-            update-other-fields: 更新任意帖文的 Mason 字段
-            skip-required-fields: 跳过必填的 Mason 字段
+            mason-heading: Mason
+            see-own-fields: 字段显示于自己的主题
+            see-other-fields: 字段显示于全部主题
+            fill-fields: 在新主题填充字段
+            update-other-fields: 更新任意主题字段
+            skip-required-fields: 允许跳过必填字段
