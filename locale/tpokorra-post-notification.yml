@@ -8,5 +8,5 @@ tpokorra-post-notification:
 
       recipients.to: 逗号分隔的收件人列表
       recipients.bcc: 逗号分隔的密送列表
-      new_post: 描述新帖的标签
-      revised_post: 描述编辑帖子的标签
+      new_post: 用于发布新帖的标签
+      revised_post: 用于编辑旧贴的标签
