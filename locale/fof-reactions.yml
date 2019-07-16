@@ -1,7 +1,7 @@
-# https://github.com/ReFlar/reactions/blob/master/locale/en.yml
-# Sat, 08 Dec 2018 16:54:32 +0800
+# https://github.com/FriendsOfFlarum/reactions/blob/master/resources/locale/en.yml
+# Tue, 16 Jul 2019 10:18:36 +0800
 
-reflar-reactions:
+fof-reactions:
   forum:
     warning: 你的回应将被覆盖
     notification: '{username} 用{reaction}回应了你的帖文'

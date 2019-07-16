@@ -73,6 +73,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-pages
   - fof-polls
   - fof-prevent-necrobumping
+  - fof-reactions
   - fof-recaptcha
   - fof-secure-https
   - fof-share-social
@@ -92,7 +93,6 @@ composer remove csineneo/lang-simplified-chinese
   - reflar-level-ranks
   - reflar-nightmode
   - reflar-pwned-passwords
-  - reflar-reactions
   - reflar-twofactor
   - reflar-webhooks
   - saleksin-auth-google
