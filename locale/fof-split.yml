@@ -1,7 +1,7 @@
-# https://github.com/flagrow/split/blob/master/locale/en.yml
-# Tue, 11 Dec 2018 14:25:06 +0800
+# https://github.com/FriendsOfFlarum/split/blob/master/locale/en.yml
+# Tue, 16 Jul 2019 10:18:36 +0800
 
-flagrow-split:
+fof-split:
     admin:
       permissions:
         split_discussion_label: 拆分主题

@@ -7,10 +7,10 @@ fof-merge-discussions:
       title: 合并主题
 
       type_target_label: 合并至该主题
-      type_target_help_text: 选择主题合并至至 <b>{title}</b>.
+      type_target_help_text: 选择主题合并至「<b>{title}</b>」。
 
       type_from_label: 合并至另一主题
-      type_from_help_text: 选取合并 <b>{title}</b> 的目标主题
+      type_from_help_text: 选取合并「<b>{title}</b>」的目标主题。
 
       load_preview_button: 预览
       submit_button: => fof-merge-discussions.ref.merge
