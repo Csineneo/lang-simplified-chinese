@@ -1,7 +1,7 @@
-# https://github.com/flagrow/user-directory/blob/master/resources/locale/en.yml
-# Tue, 19 Mar 2019 10:56:44 +0800
+# https://github.com/FriendsOfFlarum/user-directory/blob/master/resources/locale/en.yml
+# Tue, 16 Jul 2019 10:18:36 +0800
 
-flagrow-user-directory:
+fof-user-directory:
     forum:
         search:
             users_heading: '在全部用户中搜索「{query}」'
@@ -23,3 +23,6 @@ flagrow-user-directory:
     admin:
         permissions:
             view_user_directory: 查看会员名录
+        settings:
+            title: 會員名錄設定
+            link: 新增連結至首頁以便於會員查看
