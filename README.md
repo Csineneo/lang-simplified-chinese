@@ -38,7 +38,6 @@ composer remove csineneo/lang-simplified-chinese
   - flagrow-linguist
   - flagrow-mason
   - flagrow-passport
-  - flagrow-split
   - flagrow-terms
   - flagrow-upload
   - flagrow-user-directory
@@ -80,6 +79,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-share-social
   - fof-socialprofile
   - fof-spamblock
+  - fof-split
   - fof-transliterator
   - fof-userbio
   - imgur-upload

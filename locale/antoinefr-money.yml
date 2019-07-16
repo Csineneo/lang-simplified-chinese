@@ -1,5 +1,5 @@
 # https://github.com/AntoineFr/flarum-ext-money/blob/master/locale/en.yml
-# Sun, 16 Dec 2018 11:41:14 +0800
+# Tue, 16 Jul 2019 10:18:36 +0800
 
 antoinefr-money:
   admin:
@@ -9,6 +9,7 @@ antoinefr-money:
       moneyfordiscussion: 每篇主题可获取
       moneyname: 货币名称（例如： [money] 元）
       postminimumlength: 可获取奖励的最小主题长度（0 表示不限制）
+      noshowzero: 若值为 0 则不显示
     permissions:
       edit_money_label: 修改资产
   forum:
