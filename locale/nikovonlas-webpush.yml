@@ -1,0 +1,57 @@
+# https://github.com/NikoVonLas/flarum-ext-web-push/blob/master/locale/en.yml
+# Mon, 22 Jul 2019 10:52:32 +0800
+
+nikovonlas-webpush:
+  forum:
+    subscribe: 订阅推送通知
+  admin:
+    settings:
+      title: 网页推送设置
+      type:
+        description: Onesignal 连接类型
+        standart: 标准
+        custom: 自定义
+      app_id: Onesignal app id
+      api_key: Onesignal api key
+      user_key: Onesignal user key
+      subdomain: Onesignal subdomain
+      excerpt: 通知摘要长度
+      autoprompt: 立即显示权限请求以授权用户
+  notify:
+    like:
+      title: 帖子被点赞
+      message: '{from} 点赞了你的帖子「{post}」'
+    mention-post:
+      title: '帖子「{title}」有新回复'
+      message: '{from} 回复了你的帖子「{post}」'
+    mention:
+      title: '帖子「{title}」提及了你'
+      message: '{from} 在帖子「{post}」提及了你'
+    post:
+      title: '订阅的主题「{title}」有新回复'
+      message: '{from} 回复了主题「{post}」'
+    tag:
+      discussion:
+        title: 订阅的节点有新主题发布
+        message: '{from} 发布了新主题「{title}」'
+      post:
+        title: '主题「{title}」有新回复'
+        message: '{from} 回复了主题「{post}」'
+    rename:
+      title: 主题被重命名
+      message: '{from} 重命名你的主题为「{title}」'
+    lock:
+      title: 主题被锁定
+      message: '{from} 锁定了你的主题「{title}」'
+    delete:
+      title: 主题被删除
+      message: '{from} 删除了你的主题「{title}」'
+    suspend:
+      title: 账号被封禁
+      message: '{from} 封禁了你的账号'
+    unsuspend:
+      title: 账号已解除封禁
+      message: '{from} 解除了你的账号封禁'
+    flag:
+      title: 有帖子被标记
+      message: '{from} 标记了你的帖子「{post}」'
