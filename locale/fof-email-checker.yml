@@ -1,0 +1,6 @@
+# https://github.com/FriendsOfFlarum/disposable-emails/blob/master/locale/en.yml
+# Mon, 22 Jul 2019 10:52:32 +0800
+
+fof-email-checker:
+  error:
+    disposable_email_message: 禁止使用一次性郵箱註冊

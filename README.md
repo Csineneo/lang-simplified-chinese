@@ -63,6 +63,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-byobu
   - fof-custom-footer
   - fof-default-group
+  - fof-email-checker
   - fof-follow-tags
   - fof-formatting
   - fof-frontpage
