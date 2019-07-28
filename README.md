@@ -85,6 +85,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-user-directory
   - fof-userbio
   - imgur-upload
+  - kilowhat-mailing
   - kvothe-sub
   - michaelBelgium-profile-views
   - migratetoflarum-vbulletin-redirects
