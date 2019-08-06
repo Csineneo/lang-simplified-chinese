@@ -87,6 +87,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-transliterator
   - fof-user-directory
   - fof-userbio
+  - fof-username-request
   - imgur-upload
   - kilowhat-mailing
   - kvothe-sub
