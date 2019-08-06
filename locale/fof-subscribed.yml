@@ -4,7 +4,7 @@
 fof-subscribed:
     forum:
         settings:
-            defaults_label: 设置「{setting}」默认启用
+            defaults_label: 默认启用设置「{setting}」
             forced_label: 强制对所有用户开启「{setting}」
             notify_discussion_created_label: 有新主题
             notify_user_created_label: 有新人注册
