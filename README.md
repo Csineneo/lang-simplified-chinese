@@ -60,9 +60,11 @@ composer remove csineneo/lang-simplified-chinese
   - flarum-suspend
   - flarum-tags
   - fof-auth-gitlab
+  - fof-ban-ips
   - fof-byobu
   - fof-custom-footer
   - fof-default-group
+  - fof-drafts
   - fof-email-checker
   - fof-follow-tags
   - fof-formatting
