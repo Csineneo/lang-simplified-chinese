@@ -81,6 +81,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-socialprofile
   - fof-spamblock
   - fof-split
+  - fof-subscribed
   - fof-transliterator
   - fof-user-directory
   - fof-userbio
