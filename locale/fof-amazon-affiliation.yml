@@ -14,4 +14,4 @@ fof-amazon-affiliation:
         remove-tag-if-unhandled: 删除未覆盖的 Amazon 联盟标签
         remove-tag-if-unhandled-help: 默认保留链接中未覆盖的 Amazon 联盟标签。
         tag: "{name} (amazon.{domain})"
-        tag-placeholder: 留空以覆盖这些链接
+        tag-placeholder: 留空則不覆盖这些链接
