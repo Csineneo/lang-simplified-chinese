@@ -59,6 +59,7 @@ composer remove csineneo/lang-simplified-chinese
   - flarum-subscriptions
   - flarum-suspend
   - flarum-tags
+  - fof-amazon-affiliation
   - fof-auth-gitlab
   - fof-ban-ips
   - fof-byobu
