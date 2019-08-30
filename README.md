@@ -93,6 +93,7 @@ composer remove csineneo/lang-simplified-chinese
   - kilowhat-mailing
   - kvothe-sub
   - michaelBelgium-profile-views
+  - migratetoflarum-fake-data
   - migratetoflarum-vbulletin-redirects
   - mybbtoflarum
   - nikovonlas-webpush

@@ -1,0 +1,11 @@
+# https://github.com/migratetoflarum/fake-data/blob/master/resources/locale/en.yml
+# Fri, 30 Aug 2019 12:53:27 +0800
+
+migratetoflarum-fake-data:
+    admin:
+        generator:
+            title: 生成假数据
+            user-count: 新增用户数
+            discussion-count: 新增主题数
+            post-count: 新增回复数
+            send: 生成数据
