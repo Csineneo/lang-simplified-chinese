@@ -16,6 +16,6 @@ fof-prevent-necrobumping:
       days_help: 如果主题最后一次回复时间超过限定天数，则这个主题将被标记为旧贴。
 
       message_title_label: 自定义警告标题
-      message_title_help: '使用 <code>[time]</code> 来代替时间，例如“14 天”。'
+      message_title_help: '使用 <code>[time]</code> 来代替时间，例如「14 天」。'
       message_description_label: 自定义警告内容
       message_agreement_label: 自定义警告协定（复选框）
