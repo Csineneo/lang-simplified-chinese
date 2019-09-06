@@ -25,6 +25,7 @@ composer remove csineneo/lang-simplified-chinese
   - antoinefr-money
   - antoinefr-online
   - backtowebsite
+  - clarkwinkelmann-post-date
   - datitisev-dashboard
   - extiverse-bazaar
   - fajuu-contactbutton
