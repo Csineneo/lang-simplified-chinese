@@ -17,6 +17,6 @@ fof-pretty-mail:
       notificationHelp: '对于这些邮件，建议使用 "$forumStyle"，因为它们可能包含 BBCODE。这些邮件可以使用 "$user" 来引用收信人的完整用户资料。'
       help: '"$body" 为邮件正文，"$forumStyle" 为<strong>全部的论坛 CSS</strong>，"$baseUrl" 为论坛 URL，"$settings" 允许您与 SettingsRepositoryInterface 进行交互，"$link" 为邮件中的链接。查看每个模板以了解如何使用变量。'
     css_settings:
-      label: CSS 设定
+      label: CSS 设置
       help: 您可以选择在邮件 HTML 代码中嵌入论坛 CSS。若要启用此项功能，某些邮件服务商可能会遇到问题。
       switch_label: 包含所有论坛 CSS
