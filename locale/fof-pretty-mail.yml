@@ -1,0 +1,22 @@
+# https://github.com/FriendsOfFlarum/pretty-mail/blob/master/resources/locale/en.yml
+# Mon, 16 Sep 2019 10:31:42 +0800
+
+fof-pretty-mail:
+  admin:
+    nav:
+      desc: 自定义 HTML 邮件模板
+    settings:
+      label: 邮件模板
+      reset: 恢复默认
+      confirm: 您确定要恢复邮件模板为
+      default: 默认模板
+      newPost: Flarum/subscriptions 新帖通知邮件
+      userMentioned: Flarum/mentions 用户被提及邮件
+      postMentioned: Flarum/mentions 帖子被提及邮件
+      notifications: 通知模板
+      notificationHelp: '对于这些邮件，建议使用 "$forumStyle"，因为它们可能包含 BBCODE。这些邮件可以使用 "$user" 来引用收信人的完整用户资料。'
+      help: '"$body" 为邮件正文，"$forumStyle" 为<strong>全部的论坛 CSS</strong>，"$baseUrl" 为论坛 URL，"$settings" 允许您与 SettingsRepositoryInterface 进行交互，"$link" 为邮件中的链接。查看每个模板以了解如何使用变量。'
+    css_settings:
+      label: CSS 设定
+      help: 您可以选择在邮件 HTML 代码中嵌入论坛 CSS。若要启用此项功能，某些邮件服务商可能会遇到问题。
+      switch_label: 包含所有论坛 CSS
