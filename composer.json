@@ -1,6 +1,6 @@
 {
   "name": "csineneo/lang-simplified-chinese",
-  "description": "适用于 Flarum v0.1.0-beta.8 及更高版本的简体中文语言包",
+  "description": "Flarum 简体中文语言包",
   "keywords": [
     "flarum",
     "locale",
@@ -21,7 +21,7 @@
     "issues": "https://vivaldi.club/t/flarum"
   },
   "require": {
-    "flarum/core": "^0.1.0-beta.9"
+    "flarum/core": "^0.1.0-beta.10"
   },
   "extra": {
     "flarum-extension": {
