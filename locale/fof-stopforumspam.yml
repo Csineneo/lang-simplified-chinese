@@ -1,0 +1,27 @@
+# https://github.com/FriendsOfFlarum/stopforumspam/blob/master/locale/en.yml
+# Fri, 20 Sep 2019 10:33:51 +0800
+
+fof-stopforumspam:
+  admin:
+    settings:
+      title: FoF 论坛垃圾拦截器
+
+      username_label: 用户名检查
+      ip_label: IP 地址检查
+      email_label: 邮箱地址检查
+
+      frequency_label: 阈值
+      frequency_text: 触发垃圾过滤的检查报告数量。
+      frequency_example_text: "例如：如果邮箱检查有 1 个命中，IP 检查有 2 个命中，合计 3 个。如果阈值设为 3 或更少，那么将会禁止注册。"
+
+      api_key_label: API 密钥
+      api_key_text: 您必须启用 fof/spamblock，您现在可以向 StopForumSpam 提交垃圾发送者以协助社区免受垃圾攻击。
+      api_key_instructions_text: <register>注册 StopForumSpam</register>，然后您可以<key>申请 API 密钥</key>。
+
+  forum:
+    message:
+      spam: 您的信息被标记为垃圾。
+
+  api:
+    error:
+      unknown: 提交至 StopForumSpam 失败。
