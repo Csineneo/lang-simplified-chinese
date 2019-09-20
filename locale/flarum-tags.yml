@@ -16,12 +16,12 @@ flarum-tags:
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
       color_label: => core.ref.color
-      icon_label: => core.ref.icon
-      icon_text: => core.ref.icon_text
       delete_tag_button: 删除标签
       delete_tag_confirmation: "确定要删除此标签？此标签下的主题将不会被删除。"
       description_label: 说明
       hide_label: 从“全部主题”中隐藏
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: 英文名称
