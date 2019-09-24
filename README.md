@@ -85,6 +85,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-reactions
   - fof-recaptcha
   - fof-secure-https
+  - fof-sentry
   - fof-share-social
   - fof-socialprofile
   - fof-spamblock
