@@ -7,6 +7,7 @@ fof-ignore-users:
       can_not_be_ignored_label: 不可被无视
 
   forum:
+    profile_link: 被无视的用户
     user_controls:
       ignore_button: 无视
       ignore_confirmation: 您想要无视此人？
