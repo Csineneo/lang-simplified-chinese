@@ -24,3 +24,8 @@ flagrow-linguist:
             without-original-translations-in-locales: 无原文翻译
             for-extension: 指定插件
             results: 显示 {shown} 条匹配翻译，共 {total} 条 
+        clear-cache:
+            text: >
+                新增翻译尚未部署。
+                Note: 清理缓存会导致论坛变慢一会。
+            button: 立刻清理缓存
