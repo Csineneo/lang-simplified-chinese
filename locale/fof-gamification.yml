@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/gamification/blob/master/resources/locale/en.yml
-# Tue, 16 Jul 2019 10:18:36 +0800
+# Wed, 25 Sep 2019 10:09:12 +0800
 
 core:
   forum:
@@ -8,6 +8,7 @@ core:
       
 fof-gamification:
   forum:
+    votes: 投票
     vote_title: 投票者
     nav:
       name: 排名
@@ -49,6 +50,8 @@ fof-gamification:
         points_placeholder: "👍: "
         color_holder: '#ffffff'
         auto_upvote: 当帖文发布时自动顶帖
+        rate_limit: 投票频率限制（10 秒）
+        discussion_page: 在贴文列表中显示投票总数
         title: 顶
         vote_color: 顶贴颜色
         icon_name: 顶/踩小图标
