@@ -1,7 +1,7 @@
-# https://github.com/flagrow/linguist/blob/master/resources/locale/en.yml
-# Sat, 08 Dec 2018 16:54:32 +0800
+# https://github.com/FriendsOfFlarum/linguist/blob/master/resources/locale/en.yml
+# Wed, 25 Sep 2019 10:09:12 +0800
 
-flagrow-linguist:
+fof-linguist:
     admin:
         menu:
             title: 翻译
