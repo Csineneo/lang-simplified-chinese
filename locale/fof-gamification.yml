@@ -4,12 +4,12 @@
 core:
   forum:
     index_sort:
-      hot_button: 最多被顶
+      hot_button: 最多被赞
       
 fof-gamification:
   forum:
-    votes: 投票
-    vote_title: 投票者
+    votes: 点赞
+    vote_title: 点赞的人
     nav:
       name: 排名
     ranking:
@@ -17,20 +17,20 @@ fof-gamification:
       name: 用户
       amount: 👍
     notification:
-      upvote: "{username} 顶了您的帖文"
+      upvote: "{username} 赞了您的帖文"
       downvote: "{username} 踩了您的帖文"
     user:
       points: "👍: {points}"
       rank: "{rank}"
     modal:
       title: 打分
-      upvotes_label: 顶
+      upvotes_label: 赞
       downvotes_label: 踩
-    mod_item: 投票人
+    mod_item: 点赞的人
   admin:
     permissions:
-      vote_label: 顶/踩帖文
-      see_votes_label: 查看帖文顶/踩
+      vote_label: 赞/踩帖文
+      see_votes_label: 查看帖文赞/踩
       see_ranking_page: 查看等级
     nav:
       desc: 增强 Flarum 论坛游戏性
@@ -49,17 +49,17 @@ fof-gamification:
         points_title: 占位符
         points_placeholder: "👍: "
         color_holder: '#ffffff'
-        auto_upvote: 当帖文发布时自动顶帖
-        rate_limit: 投票频率限制（10 秒）
-        discussion_page: 在贴文列表中显示投票总数
-        title: 顶
-        vote_color: 顶贴颜色
-        icon_name: 顶/踩小图标
+        auto_upvote: 当帖文发布时自动点赞
+        rate_limit: 点赞频率限制（10 秒）
+        discussion_page: 在贴文列表中显示点赞总数
+        title: 赞
+        vote_color: 点赞颜色
+        icon_name: 赞/踩小图标
         icon_help: "输入任何 Font Awesome 图标，后缀为 -up 和 -down。 示例：箭头，拇指，人字纹"
       save_settings: 保存设置
       convert:
-        button: 转换“喜欢”为“顶”
-        help: 将 Likes 插件产生的“喜欢”转换成“顶”，并计算所有当前讨论的热度
+        button: 转换“喜欢”为“赞”
+        help: 将 Likes 插件产生的“喜欢”转换成“赞”，并计算所有当前讨论的热度
         converting: 您的 Likes 数据正在转换，请等待几分钟再刷新页面查看转换结果。（转换可能需要一段时间，具体取决于您的论坛）
         converted: "成功转换 {number} 个喜欢"
       ranks:
@@ -68,6 +68,6 @@ fof-gamification:
         number_title: 要显示多少个徽章？
         help:
           color: '#ffffff'
-          help: "输入所需数量的顶，级别名称，以及等级颜色"
+          help: "输入所需数量的赞，级别名称，以及等级颜色"
           points: 👍
           name: 名称
