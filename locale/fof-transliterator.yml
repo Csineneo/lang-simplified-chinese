@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/transliterator/blob/master/locale/en.yml
-# Tue, 18 Dec 2018 15:53:24 +0800
+# Wed, 25 Sep 2019 10:09:12 +0800
 
 fof-transliterator:
   admin:
@@ -7,3 +7,8 @@ fof-transliterator:
       title: FoF URL 转译设置
       parse_button: 转译已有主题
       result: 已转译 {count} 个主题
+
+      package_label: 转译包
+      package_behat_label: Behat（默认）
+      package_php_label: PHP (需要安装 ext-intl)
+      package_php2_label: "PHP #2 (需要安装 ext-intl)"
