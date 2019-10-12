@@ -5,6 +5,7 @@ flarum-notify:
     services:
       title: 通知服务
       description: 请选取要启用的服务
+      unavailable: 服务不可用，如要继续，请查看<a>安装说明</a>。
     events:
       title: 通知事件
       description: 选取触发通知的事件。当以下事件发生时发送通知
@@ -29,3 +30,9 @@ flarum-notify:
       title: Gitter 设置 
       description: 前往 <a>gitter.im</a> 房间，点击“设置”图标→集成→自定义，将会生成 webhook url
       webhook: Gitter webhook
+    telegram-modal:
+      title: Telegram 设置
+      description: 查看<aBot>说明</aBot>来配置 bot，然后<aChatId>申请 chat ID</aChatId>。
+      apiKey: Telegram API key
+      botName: Telegram bot 名称
+      chatId: Telegram chat ID
