@@ -115,8 +115,9 @@ composer remove csineneo/lang-simplified-chinese
   - saleksin-auth-google
   - shriker-pronouns
   - tpokorra-post-notification
-  - wuethrich44-sso
   - v17development-flarum-seo
+  - wuethrich44-sso
+  - zerosonesfun-announce
 
 ### 示例 / Demo
   - https://vivaldi.club 
