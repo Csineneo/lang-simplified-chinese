@@ -1,7 +1,7 @@
-# https://github.com/fabwu/flarum-ext-sso/blob/master/locale/en.yml
-# Wed, 19 Dec 2018 13:07:06 +0800
+# https://github.com/maicol07/flarum-ext-sso/blob/master/locale/en.yml
+# Tue, 15 Oct 2019 09:38:19 +0800
 
-wuethrich44-sso:
+maicol07-sso:
   admin:
     settings:
       title: "单点登录设置"

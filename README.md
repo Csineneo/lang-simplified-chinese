@@ -101,6 +101,7 @@ composer remove csineneo/lang-simplified-chinese
   - imgur-upload
   - kilowhat-mailing
   - kvothe-sub
+  - maicol07-sso
   - michaelBelgium-profile-views
   - migratetoflarum-fake-data
   - migratetoflarum-vbulletin-redirects
@@ -116,7 +117,6 @@ composer remove csineneo/lang-simplified-chinese
   - shriker-pronouns
   - tpokorra-post-notification
   - v17development-flarum-seo
-  - wuethrich44-sso
   - zerosonesfun-announce
 
 ### 示例 / Demo
