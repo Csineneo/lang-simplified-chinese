@@ -1,0 +1,16 @@
+# https://github.com/clarkwinkelmann/flarum-ext-author-change/blob/master/resources/locale/en.yml
+# Mon, 21 Oct 2019 09:45:33 +0800
+
+clarkwinkelmann-author-change:
+    forum:
+        controls:
+            edit: 修改作者
+        modal:
+            title-post: 修改回帖作者
+            title-discussion: 修改主题作者
+            search_placeholder: 搜索用户
+            submit: 保存
+            cancel: 取消
+    admin:
+        permissions:
+            edit: 更新主题及回帖作者
