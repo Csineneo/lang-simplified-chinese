@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/linguist/blob/master/resources/locale/en.yml
-# Wed, 25 Sep 2019 10:09:12 +0800
+# Sat, 26 Oct 2019 11:28:42 +0800
 
 fof-linguist:
     admin:
@@ -23,6 +23,10 @@ fof-linguist:
             with-original-translations-in-locales: 有原文翻译
             without-original-translations-in-locales: 无原文翻译
             for-extension: 指定插件
+            for-extension-unavailable: >
+              命名空间「{namespace}」找不到翻译资源。
+              这个插件可能没有需要翻译的内容，或者使用了另一个命名空间。
+              尝试使用搜索来定位翻译资源。
             results: 显示 {shown} 条匹配翻译，共 {total} 条 
         clear-cache:
             text: >

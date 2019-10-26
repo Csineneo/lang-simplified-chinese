@@ -1,7 +1,7 @@
-# https://github.com/flagrow/terms/blob/master/resources/locale/en.yml
-# Tue, 11 Dec 2018 20:27:48 +0800
+# https://github.com/FriendsOfFlarum/terms/blob/master/resources/locale/en.yml
+# Sat, 26 Oct 2019 11:28:42 +0800
 
-flagrow-terms:
+fof-terms:
     admin:
         settings:
             title: 服务条款设置

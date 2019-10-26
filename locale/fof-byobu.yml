@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/byobu/blob/master/resources/locale/en.yml
-# Tue, 16 Jul 2019 10:18:36 +0800
+# Sat, 26 Oct 2019 11:28:42 +0800
 
 fof-byobu:
   forum:
@@ -34,6 +34,10 @@ fof-byobu:
       settings:
         block_pd: 禁用私密主题
       byobu_link: 私密主题
+    notifications:
+      pd_label: 某人将我加入了私密主题
+      pd_text: "{username} 创建私密主题并邀请了你"
+
   admin:
     permission:
       create_private_discussions_with_users: 创建私密主题并可添加参与者
@@ -43,3 +47,7 @@ fof-byobu:
       edit_group_recipients: 编辑参与私密讨论的群组
     settings:
       byobu_users_page_label: 添加私密主题至用户页面
+
+  notifications:
+    private_discussion_created:
+      title: "[forum-name] 创建私密主题"
