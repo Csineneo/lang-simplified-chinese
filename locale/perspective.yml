@@ -1,0 +1,23 @@
+# https://github.com/tankerkiller125/flarum-perspective/blob/master/resources/locale/en.yml
+# Tue, 29 Oct 2019 13:23:08 +0800
+
+perspective:
+  admin:
+    settings:
+      title: Perspective 设置
+      donotstore: 不存储
+      usemax: 使用最高评分
+      field:
+        api_key: API Key
+        threshold: 阈值
+        toxicity: 有毒
+        threat: 威胁
+        profanity: 脏话
+        sexually_explicit: 色情
+        flirtation: 挑逗
+
+  forum:
+    post:
+      not_toxic_button: 标记为无毒
+      perspective_flagged_text: 利用 Perspective 自动审核贴文
+

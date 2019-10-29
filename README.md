@@ -109,6 +109,7 @@ composer remove csineneo/lang-simplified-chinese
   - migratetoflarum-vbulletin-redirects
   - mybbtoflarum
   - nikovonlas-webpush
+  - perspective
   - reflar-cookie-consent
   - reflar-doorman
   - reflar-level-ranks
