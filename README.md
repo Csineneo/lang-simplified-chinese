@@ -101,6 +101,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-userbio
   - fof-username-request
   - imgur-upload
+  - kilowhat-affiliation-links
   - kilowhat-mailing
   - kvothe-sub
   - maicol07-sso

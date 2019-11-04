@@ -1,20 +1,20 @@
 # https://github.com/kilowhat/flarum-ext-mailing/blob/master/resources/locale/en.yml
-# Sun, 28 Jul 2019 11:17:57 +0800
+# Mon, 04 Nov 2019 10:00:17 +0800
 
 kilowhat-mailing:
     admin:
         permissions:
             mail_individual: 向单独用户发送邮件
-            mail_all: 向全部用户发送邮件
+            mail_all: 向全部用户或群组用户发送邮件
 
     forum:
         links:
             mail_individual: 向该用户发送邮件
             mail_all: 向全体用户发送邮件
         modal_mail:
-            title_text: 发送给
-            title_all_text: 全体用户
-            email_label: 收件人
+            title_text: 撰写邮件
+            recipients_label: 收件人
+            recipients_placeholder: 输入其他收件人...
             subject_label: 标题
             default_subject: => kilowhat-mailing.ref.default_subject
             message_label: 正文
