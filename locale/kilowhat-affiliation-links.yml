@@ -4,27 +4,27 @@
 kilowhat-affiliation-links:
     admin:
         settings:
-            title: 推广链接设定
+            title: 推广链接设置
 
         titles:
             rules: 链接规则
 
         buttons:
-            new-rule: 新增规则
-            edit-rule: 编辑规则
-            add-rule: 添加规则
-            save-rule: 保存规则
-            delete-rule: 删除规则
+            new-rule: 新增
+            edit-rule: 编辑
+            add-rule: 添加
+            save-rule: 保存
+            delete-rule: 删除
 
         messages:
             delete-rule-confirmation: 这将永久删除规则 {match_pattern}，要继续吗？
 
         rules:
             match-component: 匹配组件
-            match-component-help: 你要比对的 URL 部分
+            match-component-help: 你要匹配的 URL 部分
             match-type: 匹配类型
             match-type-help: >
-                用于比对的匹配策略。
+                用于匹配的策略。
                 "精确" 精确匹配。
                 "简单" 允许使用通配符「*」进行匹配。
                 "正则" 允许使用正则表达式进行匹配。
