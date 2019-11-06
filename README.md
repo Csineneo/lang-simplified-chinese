@@ -66,6 +66,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-amazon-affiliation
   - fof-auth-gitlab
   - fof-ban-ips
+  - fof-best-answer
   - fof-byobu
   - fof-custom-footer
   - fof-default-group
