@@ -46,7 +46,6 @@ composer remove csineneo/lang-simplified-chinese
   - flarum-auth-facebook
   - flarum-auth-github
   - flarum-auth-twitter
-  - flarum-best-answer
   - flarum-discussion-views
   - flarum-emoji
   - flarum-ext-close
@@ -66,6 +65,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-amazon-affiliation
   - fof-auth-gitlab
   - fof-ban-ips
+  - fof-best-answer
   - fof-byobu
   - fof-custom-footer
   - fof-default-group
