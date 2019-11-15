@@ -28,6 +28,7 @@ composer remove csineneo/lang-simplified-chinese
   - clarkwinkelmann-author-change
   - clarkwinkelmann-emojionearea
   - clarkwinkelmann-post-date
+  - clarkwinkelmann-status
   - datitisev-dashboard
   - dem13n
   - extiverse-bazaar
