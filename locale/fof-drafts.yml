@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/drafts/blob/master/resources/locale/en.yml
-# Tue, 06 Aug 2019 10:56:57 +0800
+# Mon, 25 Nov 2019 10:00:55 +0800
 
 fof-drafts:
   admin:
@@ -9,7 +9,9 @@ fof-drafts:
     composer:
       title: 保存草稿
       alert: 草稿已保存。
+      exit_alert: 丢弃已编辑的草稿？
     dropdown:
+      empty_text: 你还没有草稿
       title: 草稿
       button: 删除草稿
       tooltip: => fof-drafts.forum.dropdown.title
