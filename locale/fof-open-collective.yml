@@ -1,0 +1,12 @@
+# https://github.com/FriendsOfFlarum/open-collective/blob/master/resources/locale/en.yml
+# Mon, 16 Dec 2019 09:46:00 +0800
+
+fof-open-collective:
+  admin:
+    settings:
+      title: FoF Open Collective
+      desc: 从 <a>https://opencollective.com/applications</a> 获取 API Key。
+
+      api_key_label: API Key
+      slug_label: Collective Slug
+      group_label: 指定群组

@@ -82,6 +82,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-links
   - fof-merge-discussions
   - fof-nightmode
+  - fof-open-collective
   - fof-pages
   - fof-polls
   - fof-pretty-mail
