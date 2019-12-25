@@ -1,7 +1,7 @@
-# https://github.com/flagrow/html-errors/blob/master/locale/en.yml
-# Wed, 16 Jan 2019 13:38:17 +0800
+# https://github.com/FriendsOfFlarum/html-errors/blob/master/locale/en.yml
+# Wed, 25 Dec 2019 15:54:56 +0800
 
-flagrow-html-errors:
+fof-html-errors:
   admin:
     settings:
       title: 自定义 HTML 错误页面
