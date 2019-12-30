@@ -74,6 +74,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-email-checker
   - fof-follow-tags
   - fof-formatting
+  - fof-forum-statistics-widget
   - fof-frontpage
   - fof-gamification
   - fof-geoip
