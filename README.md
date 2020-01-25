@@ -29,6 +29,7 @@ composer remove csineneo/lang-simplified-chinese
   - clarkwinkelmann-create-user-modal
   - clarkwinkelmann-email-as-display-name
   - clarkwinkelmann-emojionearea
+  - clarkwinkelmann-passwordless
   - clarkwinkelmann-post-date
   - clarkwinkelmann-status
   - datitisev-dashboard
