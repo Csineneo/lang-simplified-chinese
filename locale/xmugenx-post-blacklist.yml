@@ -1,0 +1,15 @@
+# https://github.com/xmugenx/flarum-ext-post-blacklist/blob/master/resources/locale/zh-hant.yml
+# Sat, 25 Jan 2020 21:04:02 +0800
+
+xmugenx-post-blacklist:
+  admin:
+    settings:
+      title: 敏感词设置
+      labelText: 含有敏感词的贴文将被隐藏
+      help: 使用空格分隔
+    permissions:
+      blacklist_discussions_label: 敏感词
+  forum:
+    post_controls:
+      unblacklist_button: 取消隐藏
+      blacklist_button: 敏感词

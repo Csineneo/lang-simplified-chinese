@@ -127,6 +127,7 @@ composer remove csineneo/lang-simplified-chinese
   - shriker-pronouns
   - tpokorra-post-notification
   - v17development-flarum-seo
+  - xmugenx-post-blacklist
   - zerosonesfun-announce
 
 ### 示例 / Demo
