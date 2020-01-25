@@ -1,0 +1,15 @@
+# https://github.com/clarkwinkelmann/flarum-ext-email-as-display-name/blob/master/locale/en.yml
+# Sat, 25 Jan 2020 21:04:02 +0800
+
+clarkwinkelmann-email-as-display-name:
+    admin:
+        permissions:
+            heading: 以邮箱作为名字
+            view-own: 显示于我的个人资料中
+            view-all: 显示于全部个人资料中
+        settings:
+            title: 设定
+            remove-username-registration: 从注册表单移除用户名
+    forum:
+        log_in:
+            username_or_email_placeholder: => core.ref.email
