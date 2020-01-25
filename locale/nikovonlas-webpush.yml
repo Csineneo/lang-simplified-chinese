@@ -25,8 +25,8 @@ nikovonlas-webpush:
       title: '{from} 回复了你的帖子'
       message: '{post}'
     mention:
-      title: '帖子「{title}」提及了你'
-      message: '{from} 在帖子「{post}」提及了你'
+      title: '{from} 提及了你'
+      message: '{post}'
     post:
       title: '「{title}」有新回复'
       message: '@{from}: {post}'
