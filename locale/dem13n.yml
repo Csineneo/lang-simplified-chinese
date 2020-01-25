@@ -10,7 +10,7 @@ dem13n:
       submit_button: => core.ref.save_changes
   admin:
     nickname:
-      settings_modal_title: 昵称设定
+      settings_modal_title: 昵称设置
       unlimited_nickname_change: 无限制修改昵称
       allow_nickname_change: 允许修改昵称
       submit_button: => core.ref.save_changes
