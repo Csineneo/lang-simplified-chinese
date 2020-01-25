@@ -1,5 +1,5 @@
 # https://github.com/MichaelBelgium/flarum-discussion-views/blob/master/locale/en.yml
-# Sat, 08 Dec 2018 16:54:32 +0800
+# Sat, 25 Jan 2020 21:04:02 +0800
 
 core:
   forum:
@@ -16,5 +16,10 @@ flarum_discussion_views:
     discussion_controls:
       resetviews_button: 设置浏览次数
   admin:
-      permissions:
-          reset_views_label: 设置浏览次数
+    permissions:
+      reset_views_label: 设置浏览次数
+    settings:
+      title: 设置
+      track_unique: 跟踪唯一浏览次数
+      abbr_numbers: 简写浏览次数
+      show_filter: 启用热度分类栏位
