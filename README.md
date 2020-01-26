@@ -126,6 +126,7 @@ composer remove csineneo/lang-simplified-chinese
   - reflar-webhooks
   - saleksin-auth-google
   - shriker-pronouns
+  - the-turk-password-strength
   - tpokorra-post-notification
   - v17development-flarum-seo
   - xmugenx-post-blacklist
