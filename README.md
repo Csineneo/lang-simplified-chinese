@@ -33,7 +33,8 @@ composer remove csineneo/lang-simplified-chinese
   - clarkwinkelmann-post-date
   - clarkwinkelmann-status
   - datitisev-dashboard
-  - dem13n
+  - dem13n-nickname-changer
+  - dem13n-quad-theme
   - extiverse-bazaar
   - fajuu-contactbutton
   - fajuu-icons

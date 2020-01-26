@@ -1,5 +1,6 @@
 # https://github.com/Dem13n/nickname-changer/blob/master/resources/locale/en.yml
-# Sat, 26 Oct 2019 11:28:42 +0800
+# https://github.com/Dem13n/quad-theme/blob/master/resources/locale/en.yml
+# Sun, 26 Jan 2020 20:08:39 +0800
 
 dem13n:
   forum:
@@ -13,5 +14,9 @@ dem13n:
       settings_modal_title: 昵称设置
       unlimited_nickname_change: 无限制修改昵称
       allow_nickname_change: 允许修改昵称
+      submit_button: => core.ref.save_changes
+    quad_theme:
+      title: Quad 主题设置
+      fod: 新主题标记
       submit_button: => core.ref.save_changes
 
