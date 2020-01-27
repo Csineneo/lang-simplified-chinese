@@ -60,7 +60,6 @@ composer remove csineneo/lang-simplified-chinese
   - [flarum-lock](https://github.com/flarum/lock)
   - [flarum-markdown](https://github.com/flarum/markdown)
   - [flarum-mentions](https://github.com/flarum/mentions)
-  - flarum-notify
   - [flarum-pusher](https://github.com/flarum/pusher)
   - [flarum-statistics](https://github.com/flarum/statistics)
   - [flarum-sticky](https://github.com/flarum/sticky)
