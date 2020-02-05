@@ -67,6 +67,7 @@ composer remove csineneo/lang-simplified-chinese
   - [flarum-suspend](https://github.com/flarum/suspend)
   - [flarum-tags](https://github.com/flarum/tags)
   - [fof-amazon-affiliation](https://discuss.flarum.org/d/12389)
+  - [fof-auth-discord](https://github.com/friendsOfFlarum/auth-discord)
   - [fof-auth-gitlab](https://discuss.flarum.org/d/20371)
   - [fof-ban-ips](https://discuss.flarum.org/d/20949)
   - [fof-best-answer](https://discuss.flarum.org/d/21894)
