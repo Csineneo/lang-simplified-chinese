@@ -6,7 +6,7 @@ fof-auth-discord:
     discord_settings:
       client_id_label: Client ID
       client_secret_label: Client Secret
-      title: FriendsOfFlarum Discord 登录
+      title: FoF Discord 登录
 
   forum:
     log_in:
