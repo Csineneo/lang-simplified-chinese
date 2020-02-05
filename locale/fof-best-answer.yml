@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/best-answer/blob/master/resources/locale/en.yml
-# Thu, 07 Nov 2019 09:36:10 +0800
+# Wed, 05 Feb 2020 13:27:26 +0800
 
 fof-best-answer:
     admin:
@@ -15,7 +15,7 @@ fof-best-answer:
         this_best_answer: 设为最佳回复
         remove_best_answer: 移除最佳回复
         best_answer_button: 最佳回复
-        best_answer_label: 由 <a>{username}</a> 选择
+        best_answer_label: 最佳回复由 <a>{username}</a> 于 {time_set} 选定
 
         notification:
           content: 如果您的问题已解决请选择一个最佳回复
