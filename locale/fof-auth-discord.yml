@@ -1,0 +1,12 @@
+# https://github.com/FriendsOfFlarum/auth-discord/blob/master/resources/locale/en.yml
+
+fof-auth-discord:
+  admin:
+    discord_settings:
+      client_id_label: Client ID
+      client_secret_label: Client Secret
+      title: FriendsOfFlarum Discord 登录
+
+  forum:
+    log_in:
+      with_discord_button: 通过 Discord 帐号登录
