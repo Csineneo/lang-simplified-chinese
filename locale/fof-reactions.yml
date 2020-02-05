@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/reactions/blob/master/resources/locale/en.yml
-# Sat, 25 Jan 2020 21:04:02 +0800
+# Wed, 05 Feb 2020 13:27:26 +0800
 
 fof-reactions:
   forum:
@@ -7,6 +7,7 @@ fof-reactions:
     notification: '{username} 用{reaction}回应了你的帖文'
     settings:
         notify_post_reacted_label: 某人回应了你的主题
+    reacting-own-post: 你不能回应自己的主题
 
   admin:
     permissions:
