@@ -61,6 +61,7 @@ composer remove csineneo/lang-simplified-chinese
   - [flarum-markdown](https://github.com/flarum/markdown)
   - [flarum-mentions](https://github.com/flarum/mentions)
   - [flarum-pusher](https://github.com/flarum/pusher)
+  - [flarum-stargazing-theme](https://discuss.flarum.org/d/22694-stargazing-theme)
   - [flarum-statistics](https://github.com/flarum/statistics)
   - [flarum-sticky](https://github.com/flarum/sticky)
   - [flarum-subscriptions](https://github.com/flarum/subscriptions)
