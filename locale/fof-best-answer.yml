@@ -20,7 +20,7 @@ fof-best-answer:
         notification:
           content: 如果您的问题已解决请选择一个最佳回复
           awarded: 您的回复被 {username} 选为最佳回复
-          awarded-email: 您的回复被选为最佳回复
-          select-email-title: 您的问题解决了吗？
+          awarded_email: 您的回复被选为最佳回复
+          select_email_title: 您的问题解决了吗？
           preferences:
-            awarded-best-answer: 当我的回复被选为最佳回复时
+            awarded_best_answer: 当我的回复被选为最佳回复时
