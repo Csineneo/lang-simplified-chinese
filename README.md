@@ -88,6 +88,7 @@ composer remove csineneo/lang-simplified-chinese
   - [fof-ignore-users](https://discuss.flarum.org/d/20681)
   - [fof-linguist](https://discuss.flarum.org/d/7026)
   - [fof-links](https://discuss.flarum.org/d/18335)
+  - [fof-masquerade](https://discuss.flarum.org/d/5791)
   - [fof-merge-discussions](https://discuss.flarum.org/d/19460)
   - [fof-nightmode](https://discuss.flarum.org/d/21492)
   - [fof-open-collective](https://discuss.flarum.org/d/22256)
