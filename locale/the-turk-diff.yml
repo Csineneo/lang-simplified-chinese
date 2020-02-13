@@ -1,0 +1,31 @@
+# https://github.com/the-turk/flarum-diff/blob/master/locale/en.yml
+# Thu, 13 Feb 2020 09:25:02 +0800
+
+the-turk-diff:
+    forum:
+        oldVersion:             旧
+        newVersion:             新
+        differences:            差异
+        revisionInfo:           "已修订 {revisionCount} 次，最新版显示于顶部"
+        emptyText:              无修订版本
+    admin:
+        settings:
+            title:              Diff 设置
+            displayMode:        显示模式 (HTML)
+            customHTML:         无行号的彩色自定义视图
+            tabularHTML:        有行号的彩色列表视图
+            renderMode:         渲染模式
+            inline:             行内 (HTML)
+            sideBySide:         并排 (HTML)
+            neighborLines:      相邻行
+            neighborLinesHelp:  指定想要显示的相邻行行数。
+            onlyUnsigned:       仅允许<strong>无符号整数</strong>！
+            detailLevel:        默认等级
+            noneLevel:          无
+            lineLevel:          行
+            wordLevel:          词
+            charLevel:          字
+            seperateBlock:      于 HTML 渲染器中在差异块之间显示分隔符
+            notice:             <strong>细节等级</strong>以及<strong>相邻行数</strong>设置的修改不会影响先前的差异计算。
+        permissions:
+            viewEditHistory:    查看修订历史

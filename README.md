@@ -129,6 +129,7 @@ composer remove csineneo/lang-simplified-chinese
   - [saleksin-auth-google](https://discuss.flarum.org/d/18250)
   - [shriker-pronouns](https://discuss.flarum.org/d/21188)
   - [tank-perspective](https://discuss.flarum.org/d/21784)
+  - [the-turk-diff](https://discuss.flarum.org/d/22779)
   - [the-turk-password-strength](https://discuss.flarum.org/d/22624)
   - [tpokorra-post-notification](https://discuss.flarum.org/d/20750)
   - [v17development-flarum-seo](https://discuss.flarum.org/d/18316)
