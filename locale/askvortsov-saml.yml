@@ -1,0 +1,22 @@
+# https://github.com/askvortsov1/flarum-saml/blob/master/resources/locale/en.yml
+# Thu, 13 Feb 2020 09:25:02 +0800
+
+askvortsov-saml:
+  admin:
+    title: SAML2 SSO 配置
+    labels:
+      idp_metadata_url: 身份识别服务商元数据 URL（XML 替代）
+      idp_metadata: 身份识别服务商元数据 XML（URL 替代）
+      only_option: 使用 SAML2 SSO 作为唯一登入选项？
+      sync_attributes: 同步属性（头像、群组、简介、资料档）？需要安装 askvortsov/auth-sync 插件。
+      nameid_format: NameID 格式
+    options:
+      nameid_format:
+        persistent: 持久化（如果支持推荐使用此选项）
+        emailAddress: Email（默认，如果不支持持久化）
+        unspecified: 未指定
+  forum:
+    log_in:
+      with_saml_button: SAML2 SSO
+      open_popup: 点此登入
+      enable_popups: 启用登入/注册弹窗

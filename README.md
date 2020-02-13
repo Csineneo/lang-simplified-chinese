@@ -24,6 +24,7 @@ composer remove csineneo/lang-simplified-chinese
   - [amaurycarrade-syndication](https://discuss.flarum.org/d/4395)
   - [antoinefr-money](https://discuss.flarum.org/d/4699)
   - [antoinefr-online](https://discuss.flarum.org/d/8302)
+  - [askvortsov-saml](https://discuss.flarum.org/d/22757)
   - [backtowebsite](https://discuss.flarum.org/d/18285)
   - [clarkwinkelmann-author-change](https://discuss.flarum.org/d/21731)
   - [clarkwinkelmann-create-user-modal](https://discuss.flarum.org/d/22608)
