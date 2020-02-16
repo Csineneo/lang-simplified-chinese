@@ -1,5 +1,5 @@
 # https://github.com/ReFlar/cookie-consent/blob/master/resources/locale/en.yml
-# Tue, 16 Jul 2019 10:18:36 +0800
+# Sun, 16 Feb 2020 09:16:32 +0800
 
 reflar-cookie-consent:
   admin:
@@ -22,7 +22,7 @@ reflar-cookie-consent:
       buttonBackgroundColor: 按钮背景颜色
       buttonTextColor: 按钮文本颜色
 
-    themes:
+      themes:
         blocky: 方形
         edgeless: 无界
         classic: 经典
