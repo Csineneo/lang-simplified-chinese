@@ -1,0 +1,59 @@
+# https://github.com/the-turk/flarum-mathren/blob/v02/locale/en.yml
+# Wed, 19 Feb 2020 09:48:40 +0800
+
+the-turk-mathren:
+    admin:
+        settings:
+            title:                    MathRen
+            description:              配置 TeX 数学渲染器
+            wrapperOptionsHeading:    Wrapper 选项
+            mathClasses:              <code>span</code> 标签类名
+            mathClassesHelp:          可以使用类名来轻松自定义 <code>span</code> 的样式。
+            blockMathClass:           用于块表达式 <code>span</code> 标签
+            inlineMathClass:          用于行内表达式的 <code>span</code> 标签
+            wrapperStyle:             <code>span</code> 样式
+            katexOptionsHeading:      KaTeX 选项
+            enableFleqn:              启用方程左对齐 (fleqn)
+            enableLeqno:              启用方程左编号 (leqno)
+            delimiters:               定界符
+            delimitersHelp:           以逗号分隔，<strong>%e%</strong> 表示数学表达式。
+            mainBlockDelimiter:       用于块表达式的主要 <strong>BBCode</strong> 定界符
+            mainInlineDelimiter:      用于行内表达式的主要 <strong>BBCode</strong> 定界符
+            aliasBlockDelimiters:     块表达式定界符别名
+            aliasInlineDelimiters:    行内表达式定界符别名
+            aliasDelimitersHelp:      >-
+                        它们是<em>主要 BBCode 定界符</em>的<strong>別名</strong>。如果在你的定界符别名类比中有特殊定界符（比如 <code>$$</code>），
+                        MathRen 将会在保存帖子时扫描整篇帖子来查找额外的定界符，并使用主要 BBCode 定界符来替换它们，这将导致帖子保存时间变长。
+                        你可能需要使用额外的 BBCode 定界符来代替指定的定界符以避免出现类似情形。
+            ignoringExpressions:      忽略表达式
+            ignoringExpressionsHelp:  以逗号分隔。
+            decisiveKeywords:         忽略表达式的关键词列表
+            decisiveKeywordsHelp:     >-
+                        你要在<em>指定的</em>右定界符旁边写上用花括号括起的某个关键词（例子： <code>$$%e%$${<strong>keyword</strong>}</code>）
+                        或者在 BBCode 內（例子： <code>[math=<strong>keyword</strong>]%e%[/math]</code>）来阻止渲染表达式。
+                        <strong>请注意</strong> <code>[math]%e%[/math]{<strong>keyword</strong>}</code> 是一个<u>无效用法</u>的示例。
+            decisiveKeywordsInfo:     此列表中的第一个关键词将作为默认文本编辑器。
+            decisiveKeywordsWarning:  不要使用特殊字符！不然会抛出异常。
+            ignoredTags:              递归时需要忽略的 DOM 节点类型列表
+            ignoredClasses:           递归时需要忽略的 DOM 节点类名列表
+            ignoredClassesInfo:       列表中的第一个类名将作为默认包裹被忽略的表达式。
+            outputMode:               输出模式
+            outputModeHelp:           选择用于输出的标记语言
+            enableColorIsTextColor:   允許 <code>\color</code> 指令接受两个参数 (colorIsTextColor)
+            enableThrowOnError:       对于不支持的命令或者无效 LaTeX 抛出错误
+            errorColor:               用于渲染错误的颜色
+            errorColorHelp:           选择渲染不支持的命令或者无效 LaTeX 的颜色。
+            sizeSettings:             大小选项
+            sizeSettingsHelp:         使用 <strong>点（point）</strong>作为小数点。不接受<em>无限值</em>!
+            minRuleThickness:         最小高度 (em)
+            maxSize:                  最大高度 (em)
+            macros:                   巨集
+            macrosHelp:               自定义巨集集合。
+            maxExpand:                最大展开极限
+            katexOptionsInfo:         前往 https://katex.org/ 了解更多 KaTeX 信息
+            otherOptionsHeading:      其它选项
+            enableTextEditorButtons:  在文本编辑器上显示按钮
+    forum:
+        textEditor:
+            blockExpression:          块表达式
+            inlineExpression:         行内表达式
