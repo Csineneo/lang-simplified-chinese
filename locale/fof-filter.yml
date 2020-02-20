@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/filter/blob/master/resources/locale/en.yml
-# Sat, 15 Feb 2020 17:22:58 +0800
+# Thu, 20 Feb 2020 10:37:09 +0800
 
 fof-filter:
     forum:
@@ -7,8 +7,8 @@ fof-filter:
         flaged_text: 包含已封锁的字符串
     admin:
         title: 过滤器
-        help: 输入关键词，以半角逗号+空格分割。如果帖子包含了关键词，将被标记旗标等待审核。支持过滤 133t 关键词。
-        help2: 同一用户在同一主题中 n 分钟内的重复帖将会被合并。
+        help: 输入关键词，以半角逗号+空格分割。如果帖子包含关键词，将被标记旗标等待审核。支持过滤 133t 关键词。
+        help2: 同一用户在同一主题中 n 分钟内的帖子将会被合并。
         email_help: 被举报的邮件正文，接受 HTML 或纯文本。
         filter_label: 要过滤的字符串
         countLabel: 敏感度
