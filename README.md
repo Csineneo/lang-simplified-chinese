@@ -133,6 +133,7 @@ composer remove csineneo/lang-simplified-chinese
   - [shriker-pronouns](https://discuss.flarum.org/d/21188)
   - [tank-perspective](https://discuss.flarum.org/d/21784)
   - [the-turk-diff](https://discuss.flarum.org/d/22779)
+  - [the-turk-edit-notifications](https://discuss.flarum.org/d/22896)
   - [the-turk-mathren](https://discuss.flarum.org/d/22439)
   - [the-turk-password-strength](https://discuss.flarum.org/d/22624)
   - [tpokorra-post-notification](https://discuss.flarum.org/d/20750)
