@@ -4,7 +4,7 @@
 core:
   forum:
     index_sort:
-      hot_button: 最新热门
+      hot_button: 最新热贴
 
 fof-gamification:
   forum:
