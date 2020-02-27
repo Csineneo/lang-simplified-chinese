@@ -4,8 +4,8 @@
 core:
   forum:
     index_sort:
-      hot_button: 最多被赞
-      
+      hot_button: 最新热门
+
 fof-gamification:
   forum:
     votes: 点赞
