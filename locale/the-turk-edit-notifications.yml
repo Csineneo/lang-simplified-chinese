@@ -4,7 +4,7 @@
 the-turk-edit-notifications:
     forum:
       notifications:
-        interacted_post_edited_text:          "{username} 编辑了他的帖子"
+        interacted_post_edited_text:          "{username} 编辑了他/她的帖子"
         post_edited_text:                     "{username} 编辑了你的帖子"
       settings:
         notify_interacted_post_edited_label:  某人编辑了我参与讨论的帖子
