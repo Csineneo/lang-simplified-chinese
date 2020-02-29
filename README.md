@@ -91,6 +91,7 @@ composer remove csineneo/lang-simplified-chinese
   - [fof-links](https://discuss.flarum.org/d/18335)
   - [fof-masquerade](https://discuss.flarum.org/d/5791)
   - [fof-merge-discussions](https://discuss.flarum.org/d/19460)
+  - [fof-moderator-notes](https://discuss.flarum.org/d/22925)
   - [fof-nightmode](https://discuss.flarum.org/d/21492)
   - [fof-open-collective](https://discuss.flarum.org/d/22256)
   - [fof-pages](https://discuss.flarum.org/d/18301)

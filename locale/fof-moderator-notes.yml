@@ -1,0 +1,21 @@
+# https://github.com/FriendsOfFlarum/moderator-notes/blob/master/resources/locale/en.yml
+# Sat, 29 Feb 2020 09:36:14 +0800
+
+fof-moderator-notes:
+  admin:
+    permissions:
+      createnotes: 创建管理员备注
+      viewnotes: 查看管理员备注
+  forum:
+    moderatorNotes:
+      add_button: 新增备注
+      confirmation_message: 备注已保存，你可能需要刷新页面才能看到。
+      create-heading: 创建新的管理员备注
+      dismiss_button: 完成
+      input_heading: 为用户 <strong>{username}</strong> 添加备注
+      no_content_given: 备注不可为空。
+      noNotes: 暂无备注。
+      submit_button: 保存备注
+
+    user:
+      notes: 管理员备注
