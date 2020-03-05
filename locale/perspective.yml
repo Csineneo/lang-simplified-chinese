@@ -1,7 +1,7 @@
 # https://github.com/tankerkiller125/flarum-perspective/blob/master/resources/locale/en.yml
-# Mon, 25 Nov 2019 10:00:55 +0800
+# Thu, 05 Mar 2020 10:53:00 +0800
 
-perspective:
+tank-perspective:
   admin:
     settings:
       title: Perspective 设置
@@ -21,4 +21,3 @@ perspective:
     post:
       not_toxic_button: 标记为无毒
       perspective_flagged_text: 利用 Perspective 自动审核贴文
-
