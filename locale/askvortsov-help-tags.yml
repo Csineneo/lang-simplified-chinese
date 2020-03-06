@@ -1,0 +1,7 @@
+# https://github.com/askvortsov1/flarum-help-tags/blob/master/resources/locale/en.yml
+# Fri, 06 Mar 2020 10:30:12 +0800
+
+askvortsov-help-tags:
+  admin:
+    permissions:
+      view_tag_label: 查看节点
