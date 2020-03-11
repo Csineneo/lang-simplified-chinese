@@ -5,8 +5,8 @@ clarkwinkelmann-who-read:
     forum:
         tooltip:
             last-read-at: "{username} 于 {ago} 已读"
-            last-read-at-behind: "{username} 最后于 {ago} 前看过"
-            last-read-at-up-to-date: "{username} 于 {ago} 前看过新帖"
+            last-read-at-behind: "{username} 最后于 {ago} 已读"
+            last-read-at-up-to-date: "{username} 于 {ago} 已读"
         more:
             show: 显示余下 {count} 人
             info: 还有 {count} 人
@@ -30,13 +30,13 @@ clarkwinkelmann-who-read:
 
     admin:
         permissions:
-            heading: 窥视者
+            heading: 已读状态
             see-read: 查看已读状态
             see-subscription: 查看订阅状态
             see-unread: 查看其它用户的未读状态
-            mark-unread: 允许发帖人将主题标记为未读
+            mark-unread: 允许将自己的主题标记为未读
         settings:
-            title: 窥视者设定
+            title: 已读状态设定
             show-in-discussion-list: 于主题列表中显示已读用户
             show-in-hero: 于主题页面顶部横幅中显示已读用户
             show-between-posts: 于帖子之间显示已读状态
