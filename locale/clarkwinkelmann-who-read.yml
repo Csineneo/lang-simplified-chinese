@@ -1,0 +1,47 @@
+# https://github.com/clarkwinkelmann/flarum-ext-who-read/blob/master/resources/locale/en.yml
+# Wed, 11 Mar 2020 11:49:38 +0800
+
+clarkwinkelmann-who-read:
+    forum:
+        tooltip:
+            last-read-at: "{username} 于 {ago} 已读"
+            last-read-at-behind: "{username} 最后于 {ago} 前看过"
+            last-read-at-up-to-date: "{username} 于 {ago} 前看过新帖"
+        more:
+            show: 显示余下 {count} 人
+            info: 还有 {count} 人
+        footer:
+            to-here-some-stopped: "{total} 人看过这个帖子，{stopped} 人没有浏览更多"
+            to-here-none-stopped: "{total} 人看过这个帖子，也都浏览了更多内容"
+            to-here-nobody: "没有人看过这个帖子"
+            to-end: "{total} 人全部看完"
+            to-end-nobody: "没有人全部看完"
+        controls:
+            set-unread: 标记为未读
+            remove-unread: 移除未读
+        badges:
+            unread: 标记为未读
+        modal:
+            title: 已读用户
+            up-to-this-post: 正在看这个帖子的用户
+            past-this-post: 看过这个帖子的用户
+            to-the-end: 全部看完的用户
+            behind: 未看完的用户
+
+    admin:
+        permissions:
+            heading: 窥视者
+            see-read: 查看已读状态
+            see-subscription: 查看订阅状态
+            see-unread: 查看其它用户的未读状态
+            mark-unread: 允许发帖人将主题标记为未读
+        settings:
+            title: 窥视者设定
+            show-in-discussion-list: 于主题列表中显示已读用户
+            show-in-hero: 于主题页面顶部横幅中显示已读用户
+            show-between-posts: 于帖子之间显示已读状态
+            show-count-of-readers-who-stopped: 于帖子间显示浏览到这里的用户数而不是已读总数
+            hide-when-behind: 如果未读帖子过多则完全隐藏用户
+            max-visible: 显示用户的最大数量
+            unread-icon: 未读徽章的图标
+            only-groups: 仅显示群组所属用户的已读状态

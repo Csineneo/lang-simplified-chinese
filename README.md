@@ -35,6 +35,7 @@ composer remove csineneo/lang-simplified-chinese
   - [clarkwinkelmann-passwordless](https://discuss.flarum.org/d/22606)
   - [clarkwinkelmann-post-date](https://discuss.flarum.org/d/21247)
   - [clarkwinkelmann-status](https://discuss.flarum.org/d/21983)
+  - [clarkwinkelmann-who-read](https://discuss.flarum.org/d/23066)
   - [datitisev-dashboard](https://discuss.flarum.org/d/2958)
   - [dem13n-nickname-changer](https://discuss.flarum.org/d/21238)
   - [dem13n-quad-theme](https://discuss.flarum.org/d/22618)
