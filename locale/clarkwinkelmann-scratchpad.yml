@@ -1,0 +1,51 @@
+# https://github.com/clarkwinkelmann/flarum-ext-scratchpad/blob/master/resources/locale/en.yml
+# Thu, 12 Mar 2020 14:01:58 +0800
+
+clarkwinkelmann-scratchpad:
+    admin:
+        settings:
+            title: 便签簿设置
+            single-column: 使用单列群组编辑器而不是三列
+            theme: CodeMirror 主题（刷新后生效）
+            indent: 缩进
+            compile-automatically: 保存 JS 时自动编译
+
+        controls:
+            refresh: 刷新
+            save: 保存
+            compile: 编译 JS
+            settings: 编辑器设置
+            new: 新增
+            new-confirmation: 当前便签簿未保存，丢弃并创建新的？
+            delete: 删除
+            delete-confirmation: 确定要删除 "{title}" ?
+            enable: 点击启用
+            disable: 点击禁用
+
+        fields:
+            title: 便签簿名称
+            admin_js: 管理后台 JS
+            forum_js: 论坛前台 JS
+            admin_less: 管理后台 Less
+            forum_less: 论坛前台 Less
+            php: PHP
+
+        placeholders:
+            untitled: 未命名
+            php-comment: 于此注册 extender
+            js-log: Hello, {frontend}!
+
+        compilation-alert:
+            success: 编译完成！
+            failure: 编译失败！
+            view-output: 查看输出
+
+        compilation-modal:
+            title: 编译输出
+            webpack: Webpack 输出
+            npm: NPM 输出
+            npm-not-run: NPM 未运行
+
+        menu:
+            title: 便签簿
+            description: 在开发环境中方便的测试代码
