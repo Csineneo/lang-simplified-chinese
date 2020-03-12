@@ -34,6 +34,7 @@ composer remove csineneo/lang-simplified-chinese
   - [clarkwinkelmann-emojionearea](https://discuss.flarum.org/d/4787)
   - [clarkwinkelmann-passwordless](https://discuss.flarum.org/d/22606)
   - [clarkwinkelmann-post-date](https://discuss.flarum.org/d/21247)
+  - [clarkwinkelmann-silent-mailchimp](https://discuss.flarum.org/d/23079)
   - [clarkwinkelmann-status](https://discuss.flarum.org/d/21983)
   - [clarkwinkelmann-who-read](https://discuss.flarum.org/d/23066)
   - [datitisev-dashboard](https://discuss.flarum.org/d/2958)

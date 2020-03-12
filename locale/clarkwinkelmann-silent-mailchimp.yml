@@ -1,0 +1,15 @@
+# https://github.com/clarkwinkelmann/flarum-ext-silent-mailchimp/blob/master/resources/locale/en.yml
+# Thu, 12 Mar 2020 14:01:58 +0800
+
+clarkwinkelmann-silent-mailchimp:
+    admin:
+        settings:
+            title: Mailchimp 自动添加用户设置
+            api-key: API Key
+            api-key-help: 从 Account > Extras > <a>API Keys</a> 中创建一个。
+            list-id: 列表 ID
+            list-id-help: 您可以在 <a>Audiences</a> 页面找到 ID，点击列表 > 设置 > Audience 名称 > Audience ID。
+            when: 何时将用户加入列表
+            when-options:
+                activated: 于用户激活时
+                registered: 于用户注册时
