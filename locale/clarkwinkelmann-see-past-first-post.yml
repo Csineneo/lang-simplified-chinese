@@ -1,0 +1,15 @@
+# https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post/blob/master/resources/locale/en.yml
+# Thu, 12 Mar 2020 14:01:58 +0800
+
+clarkwinkelmann-see-past-first-post:
+    forum:
+        cant-see: 你没有权限查看回帖
+        login-to-see: 登入以查看回帖
+
+    admin:
+        permissions:
+            see-past-first-post: 查看回帖
+        settings:
+            title: 设置
+            hide-comment-count: 从主题列表中隐藏回帖数
+            hide-last-post: 从主题列表中隐藏最后回帖人和时间
