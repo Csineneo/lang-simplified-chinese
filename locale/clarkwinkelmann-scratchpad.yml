@@ -38,12 +38,12 @@ clarkwinkelmann-scratchpad:
         compilation-alert:
             success: 编译完成！
             failure: 编译失败！
-            view-output: 查看输出
+            view-output: 查看日志
 
         compilation-modal:
-            title: 编译输出
-            webpack: Webpack 输出
-            npm: NPM 输出
+            title: 编译日志
+            webpack: Webpack 日志
+            npm: NPM 日志
             npm-not-run: NPM 未运行
 
         menu:
