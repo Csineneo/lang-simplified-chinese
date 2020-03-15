@@ -1,0 +1,21 @@
+# https://github.com/therealsujitk/flarum-ext-gifs/blob/master/resources/locale/en.yml
+# Sun, 15 Mar 2020 10:28:57 +0800
+
+therealsujitk:
+  forum:
+    gifs:
+      label: '插入动图'
+      title: '选择动图'
+      searchbar: '搜索动图'
+      search: '搜索'
+      loading: '载入中...'
+      noresults: '没找到'
+      loadmore: '载入更多'
+  admin:
+    gifs:
+      title: 'GIF API 设置'
+      giphyAPIkey: 'Giphy API Key'
+    about:
+      stringA: '插件制作： '
+      stringB: '捐助我： '
+

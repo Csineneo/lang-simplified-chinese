@@ -143,6 +143,7 @@ composer remove csineneo/lang-simplified-chinese
   - [the-turk-mathren](https://discuss.flarum.org/d/22439)
   - [the-turk-password-strength](https://discuss.flarum.org/d/22624)
   - [the-turk-quiet-edits](https://discuss.flarum.org/d/22916)
+  - [therealsujitk](https://discuss.flarum.org/d/23101)
   - [tpokorra-post-notification](https://discuss.flarum.org/d/20750)
   - [v17development-flarum-seo](https://discuss.flarum.org/d/18316)
   - [xmugenx-post-blacklist](https://discuss.flarum.org/d/21750)
