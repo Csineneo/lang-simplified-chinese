@@ -1,16 +1,16 @@
 # https://github.com/migratetoflarum/fake-data/blob/master/resources/locale/en.yml
-# Mon, 09 Mar 2020 11:22:59 +0800
+# Mon, 16 Mar 2020 12:28:41 +0800
 
 migratetoflarum-fake-data:
     admin:
         generator:
             title: 生成假数据
-            bulk-mode: 批量模式
-            bulk-mode-description: 生成一个随机值并重复使用
-            user-count: 新增用户数
-            discussion-count: 新增主题数
-            post-count: 新增回复数
-            send: 生成数据
+            bulk-mode: => migratetoflarum-fake-data.ref.bulk-mode
+            bulk-mode-description: => migratetoflarum-fake-data.ref.bulk-mode-description
+            user-count: => migratetoflarum-fake-data.ref.user-count
+            discussion-count: => migratetoflarum-fake-data.ref.discussion-count
+            post-count: => migratetoflarum-fake-data.ref.post-count
+            send: => migratetoflarum-fake-data.ref.send
 
     forum:
         link:
@@ -18,10 +18,20 @@ migratetoflarum-fake-data:
 
         generator:
             title: 生成假回复
-            user-count: 新增用户数
-            post-count: 新增回复数
-            send: 生成数据
+            bulk-mode: => migratetoflarum-fake-data.ref.bulk-mode
+            bulk-mode-description: => migratetoflarum-fake-data.ref.bulk-mode-description
+            user-count: => migratetoflarum-fake-data.ref.user-count
+            post-count: => migratetoflarum-fake-data.ref.post-count
+            send: => migratetoflarum-fake-data.ref.send
 
     api:
         no-users-matched: 用户未找到
         no-discussions-matched: 主题未找到
+
+    ref:
+        bulk-mode: 批量模式
+        bulk-mode-description: 生成一个随机值并重复使用
+        user-count: 新增用户数
+        discussion-count: 新增主题数
+        post-count: 新增回复数
+        send: 生成数据
