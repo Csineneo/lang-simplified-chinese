@@ -18,23 +18,23 @@ studosi-mail-filter:
 
         whitelist:
             label: 白名单
-            desc: 严格匹配的邮箱
-            placeholder: 新增白名单邮箱...
+            desc: 严格匹配
+            placeholder: 添加完整邮箱...
 
         whitelist_regex:
-            label: 白名单正则表达式
-            desc: 正则匹配的邮箱白名单
-            placeholder: 新增白名单正则表达式...
+            label: 正则表达式
+            desc: 正则匹配的邮箱
+            placeholder: 添加正则表达式...
 
         blacklist:
             label: 黑名单
-            desc: 严格匹配的邮箱
-            placeholder: 新增黑名单邮箱...
+            desc: 严格匹配
+            placeholder: 添加完整邮箱...
 
         blacklist_regex:
-            label: 黑名单正则表达式
-            desc: 正则匹配的邮箱黑名单
-            placeholder: 新增黑名单表达式...
+            label: 正则表达式
+            desc: 正则匹配的邮箱
+            placeholder: 添加正则表达式...
 
         import:
             label: 导入设置
@@ -42,11 +42,11 @@ studosi-mail-filter:
             button: 导入
 
         error:
-            invalid_regex: 添加的正则表达式无效。
+            invalid_regex: 正则表达式无效。
 
     forum:
         error:
-            generic: 错误，请联系论坛管理员。
+            generic: 遇到错误，请联系论坛管理员。
 
             blacklisted: 这个邮箱或邮箱后缀不在论坛黑名单中。
             not_whitelisted: 这个邮箱或邮箱后缀不在论坛白名单中。
