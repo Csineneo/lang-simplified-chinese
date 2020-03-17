@@ -137,6 +137,7 @@ composer remove csineneo/lang-simplified-chinese
   - [reflar-webhooks](https://discuss.flarum.org/d/17812)
   - [saleksin-auth-google](https://discuss.flarum.org/d/18250)
   - [shriker-pronouns](https://discuss.flarum.org/d/21188)
+  - [studosi-mail-filter](https://discuss.flarum.org/d/23132)
   - [tank-perspective](https://discuss.flarum.org/d/21784)
   - [the-turk-diff](https://discuss.flarum.org/d/22779)
   - [the-turk-edit-notifications](https://discuss.flarum.org/d/22896)
