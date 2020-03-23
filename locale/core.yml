@@ -1,5 +1,5 @@
 # https://github.com/flarum/lang-english/blob/master/locale/core.yml
-# Thu, 05 Mar 2020 10:53:00 +0800
+# Mon, 23 Mar 2020 10:55:41 +0800
 
 core:
 
@@ -413,7 +413,7 @@ core:
     user_controls:
       button: 操作 
       delete_button: => core.ref.delete
-      delete_confirmation: "确定要删除此用户？此用户的所有主题都将被删除。"
+      delete_confirmation: "确定要删除此用户？用户的主题将不会被删除。"
       delete_error_message: "删除用户 <i>{username} ({email})</i> 失败"
       delete_success_message: "用户 <i>{username} ({email})</i> 已删除"
       edit_button: => core.ref.edit
