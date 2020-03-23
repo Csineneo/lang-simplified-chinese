@@ -1,5 +1,5 @@
 # https://github.com/studosi-flarum/mail-filter/blob/master/locale/en.yml
-# Tue, 17 Mar 2020 14:25:57 +0800
+# Mon, 23 Mar 2020 10:55:41 +0800
 
 studosi-mail-filter:
     admin:
@@ -12,7 +12,7 @@ studosi-mail-filter:
                 name_placeholder: 规则名称
 
                 delete:
-                    question: 确定要删除规则「{rule_name}」？
+                    question: "确定要删除规则「{rule_name}」？"
                     yes: 是
                     no: 否
 
@@ -42,11 +42,11 @@ studosi-mail-filter:
             button: 导入
 
         error:
-            invalid_regex: 正则表达式无效。
+            invalid_regex: "正则表达式无效。"
 
     forum:
         error:
-            generic: 遇到错误，请联系论坛管理员。
+            generic: "遇到错误，请联系论坛管理员。"
 
-            blacklisted: 这个邮箱或邮箱后缀不在论坛黑名单中。
-            not_whitelisted: 这个邮箱或邮箱后缀不在论坛白名单中。
+            blacklisted: "这个邮箱或邮箱后缀不在论坛黑名单中。"
+            not_whitelisted: "这个邮箱或邮箱后缀不在论坛白名单中。"
