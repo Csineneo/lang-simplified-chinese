@@ -25,6 +25,7 @@ composer remove csineneo/lang-simplified-chinese
   - [antoinefr-money](https://discuss.flarum.org/d/4699)
   - [antoinefr-online](https://discuss.flarum.org/d/8302)
   - [askvortsov-auth-sync](https://discuss.flarum.org/d/22759)
+  - [askvortsov-categories](https://discuss.flarum.org/d/23184)
   - [askvortsov-help-tags](https://discuss.flarum.org/d/23004)
   - [askvortsov-saml](https://discuss.flarum.org/d/22757)
   - [backtowebsite](https://discuss.flarum.org/d/18285)
