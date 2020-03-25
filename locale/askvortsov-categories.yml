@@ -7,7 +7,7 @@ askvortsov-categories:
       categories_label: 论坛版块
     labels:
       keep_tags_nav: 侧边栏导航保留标签页面链接？
-      child_bare_icon: 子分类图示不以圆形显示？
+      child_bare_icon: 子分类图标不显示为圆形？
       full_page_desktop: 侧边栏导航要收起为一行吗？这将同时隐藏挂件（比如论坛统计）。
       parent_remove_icon: 隐藏顶级标签的图标？
       parent_remove_description: 隐藏顶级标签的描述？
