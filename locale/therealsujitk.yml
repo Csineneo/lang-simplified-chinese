@@ -1,5 +1,6 @@
 # https://github.com/therealsujitk/flarum-ext-gifs/blob/master/resources/locale/en.yml
-# Mon, 23 Mar 2020 10:55:41 +0800
+# https://github.com/therealsujitk/flarum-ext-hljs/blob/master/resources/locale/en.yml
+# Tue, 31 Mar 2020 10:50:53 +0800
 
 therealsujitk:
   forum:
@@ -18,3 +19,6 @@ therealsujitk:
     about:
       stringA: '插件制作： '
       stringB: '捐助我： '
+    hljs:
+      title: 'highlight.js'
+      themename: '主题名称'
