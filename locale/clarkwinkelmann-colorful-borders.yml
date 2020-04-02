@@ -19,7 +19,7 @@ clarkwinkelmann-colorful-borders:
             editOwnPost: 编辑自己的帖子样式
             editAnyPost: 编辑任何帖子样式
         settings:
-            title: 多彩边框设定
+            title: 多彩边框设置
             enableBorderColor: 自定义边框颜色
             enableBackgroundColor: 自定义背景色
             enableTextColor: 自定义前景色
@@ -31,4 +31,4 @@ clarkwinkelmann-colorful-borders:
                 simple: 简单配色集
                 all: 任何颜色
                 custom: 自定义配色列表
-                custom-help: '逗号分隔的 #hex 或 rgb() 列表'
+                custom-help: '以半角逗号分隔的 #hex 或 rgb() 值的列表'
