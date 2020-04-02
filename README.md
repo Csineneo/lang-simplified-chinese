@@ -30,6 +30,7 @@ composer remove csineneo/lang-simplified-chinese
   - [askvortsov-saml](https://discuss.flarum.org/d/22757)
   - [backtowebsite](https://discuss.flarum.org/d/18285)
   - [clarkwinkelmann-author-change](https://discuss.flarum.org/d/21731)
+  - [clarkwinkelmann-colorful-borders](https://discuss.flarum.org/d/23303)
   - [clarkwinkelmann-create-user-modal](https://discuss.flarum.org/d/22608)
   - [clarkwinkelmann-email-as-display-name](https://discuss.flarum.org/d/22603)
   - [clarkwinkelmann-emojionearea](https://discuss.flarum.org/d/4787)
