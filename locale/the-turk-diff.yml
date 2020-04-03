@@ -1,52 +1,62 @@
 # https://github.com/the-turk/flarum-diff/blob/master/locale/en.yml
-# Fri, 06 Mar 2020 10:30:12 +0800
+# Fri, 03 Apr 2020 09:59:29 +0800
 
 the-turk-diff:
-    forum:
-        differences:                差异
-        revisionInfo:               "已修订 {revisionCount} 次，最新版显示于顶部"
-        emptyText:                  无修订版本
-        confirmDelete:              确定要从历史中删除这个修订版本吗？
-        confirmRollback:            确定要回滚到这个修订版本吗？这个修订之后的所有编辑内容都将被永久删除。
-        deleteSuccessMessage:       修订版本已删除
-        deleteErrorMessage:         删除修订版本失败
-        rollbackSuccessMessage:     您的修改已恢复。
-        rollbackErrorMessage:       恢复失败。
-        deletedText:                （已删除）
-        deletedTooltip:             "{username} 于 {ago} 删除了这个修订版本"
-        optionsButton:              选项
-        rollbackButton:             回滚到这个修订版本
-        noDiff:                     没有差异。
-    admin:
-        settings:
-            title:                  Diff 设置
-            displayMode:            显示模式 (HTML)
-            customHTML:             自定义视图
-            tabularHTML:            列表视图
-            renderMode:             显示模式
-            inline:                 行内 (HTML)
-            sideBySide:             并排 (HTML)
-            combined:               合并（HTML）
-            neighborLines:          相邻行
-            neighborLinesHelp:      指定想要显示的相邻行行数。
-            onlyUnsigned:           仅允许<strong>无符号整数</strong>！
-            usePoint:               使用<strong>点</strong>作为小数点。
-            detailLevel:            默认等级
-            noneLevel:              无
-            lineLevel:              行
-            wordLevel:              词
-            charLevel:              字
-            seperateBlock:          于 HTML 渲染器中在差异块之间显示分隔符
-            enableSyncScroll:       在并排模式下启用同步滚动
-            allowSwitch:            允许用户切换显示模式
-            mainPostOnly:           仅保存主贴的修订版本
-            dbOptimisation:         优化数据库
-            archiveOlds:            存档旧的修订版本
-            archiveOldsInfo:        如果 <strong>x ≥ A</strong>，那么这个帖子之前的 <strong>y = mx + b</strong> 个修订版本将被合并压缩保存。<strong>x</strong> 为帖子修订版本数。浮点值 <strong>y</strong> 将被简化至下一个最小整数值。
-            useCrons:               使用定时任务存档旧的修订版本
-            useCronsHelp:           您必须将定时任务添加到服务器中才能使此选项生效，它将于每周日 02:00AM 运行。如果禁用此选项并开启上面的选项，那么在修订相关帖子时将扫描所有帖子的修订版本以进行存档操作。
-            archiveInfo:            请注意，您可以同时停用这两个选项，运行命令 <code>php flarum diff:archive</code> 来手动存档旧的修订版本。
-        permissions:
-            viewEditHistory:        查看修订历史
-            deleteEditHistory:      删除其他用户的修订版本
-            selfDeleteEditHistory:  删除自己的修订版本
+  forum:
+    revisionInfo: "已修订 {revisionCount} 次，最新版显示于顶部"
+    revisions: "{revisionCount} 次修订"
+    emptyText: 无修订版本
+    confirmDelete: 确定要从历史中删除这个修订版本吗？
+    confirmRollback: 确定要回滚到这个修订版本吗？这个修订之后的所有编辑内容都将被永久删除。
+    deleteSuccessMessage: 修订版本已删除
+    deleteErrorMessage: 删除修订版本失败
+    rollbackSuccessMessage: 您的修改已恢复。
+    rollbackErrorMessage: 恢复失败。
+    deletedText: （已删除）
+    deletedTooltip: "{username} 于 {ago} 删除了这个修订版本"
+    createdTooltip: "{username} 于 {ago} 新增修订"
+    optionsButton: 选项
+    rollbackButton: 回滚到这个修订版本
+    rollbackToOriginalButton: 回滚至原始版本
+    revertChangesButton: 撤销变更
+    noDiff: 没有差异。
+    mostRecent: 最近更新
+    sideBySide: 并排
+    inline: 逐行
+    combined: 组合
+
+    # {old}, {new} and {content} may refer to: (=> originalContent) key or (=> revisionWithNumber) key
+    differences: "您正在浏览 {old} 及 {new} 之间的差异"
+    previewMode: "您正在预览 {content}" # other languages may use: You're in preview mode ({content})
+    originalContent: 原始内容 # may be {old}, {new} or {content}
+    currentContent: 当前内容 # may be {old}, {new} or {content}
+    revisionWithNumber: "修订版本 {number}" # may be {old}, {new} or {content}
+  admin:
+    settings:
+      title: Diff 设置
+      neighborLines: 相邻行
+      neighborLinesHelp: 指定想要显示的相邻行行数。
+      onlyUnsigned: 仅允许<strong>无符号整数</strong>！
+      usePoint: 使用<strong>点</strong>作为小数点。
+      detailLevel: 默认等级
+      noneLevel: 无
+      lineLevel: 行
+      wordLevel: 词
+      charLevel: 字
+      separateBlock: 于 HTML 渲染器中在差异块之间显示分隔符
+      mainPostOnly: 仅保存主贴的修订版本
+      textFormatting: 预览时开启文本样式
+      dbOptimisation: 优化数据库
+      archiveOlds: 存档旧的修订版本
+      archiveOldsInfo: 如果 <strong>x ≥ A</strong>，那么这个帖子之前的 <strong>y = mx + b</strong> 个修订版本将被合并压缩保存。<strong>x</strong> 为帖子修订版本数。浮点值 <strong>y</strong> 将被简化至下一个最小整数值。
+      useCrons: 使用定时任务存档旧的修订版本
+      useCronsHelp: 您必须将定时任务添加到服务器中才能使此选项生效，它将于每周日 02:00AM 运行。如果禁用此选项并开启上面的选项，那么在修订相关帖子时将扫描所有帖子的修订版本以进行存档操作。
+      archiveInfo: 请注意，您可以同时停用这两个选项，运行命令 <code>php flarum diff:archive</code> 来手动存档旧的修订版本。
+      mergeThreshold: 组合渲染的阈值
+      mergeThresholdHelp: 这决定了替换类型块是否应当合并，依赖于内容差异率，值应当在 0-1 之间。
+    permissions:
+      viewEditHistory: 查看修订历史
+      deleteEditHistory: 删除其他用户的修订版本
+      selfDeleteEditHistory: 删除自己的修订版本
+      rollbackEditHistory: 回滚其他人的修订版本
+      selfRollbackEditHistory: 回滚自己的修订版本
