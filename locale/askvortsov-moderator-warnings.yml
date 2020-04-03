@@ -1,0 +1,46 @@
+# https://github.com/askvortsov1/flarum-moderator-warnings/blob/master/resources/locale/en.yml
+# Fri, 03 Apr 2020 07:44:04 +0800
+
+askvortsov-moderator-warnings:
+  admin:
+    permissions:
+      manage_warnings: 创建和移除管理员警告
+      view_warnings: 查看管理员警告
+      delete_warnings: 永久删除管理员警告
+  forum:
+    notifications:
+      warning_text: 您被管理员 {mod_username} 警告并扣 {strikes} 分
+      warning_no_strikes_text: 您被管理员 {mod_username} 警告（无扣分）
+    post:
+      warning: 被管理员 {mod_username} 警告并扣 {strikes} 分
+      warning_no_strikes: 您被管理员 {mod_username} 警告
+    post_controls:
+      warning_button: 警告用户
+    user:
+      warnings: 管理员警告
+    settings:
+      warning_notification_label: 管理员警告我
+    warning_controls:
+      delete_button: 移除
+      restore_button: 恢复
+      delete_forever_button: 永久删除
+    warning_list:
+      add_button: 新增警告
+      no-warnings: 暂无警告。
+      warnings: "管理员警告： 已被扣 {strikes} 分"
+      warnings_no_strikes: "管理员警告：未被扣分"
+    warning_list_item:
+      list_item_heading: 收到管理员 <strong>{mod_username}</strong> 警告并扣 <strong>{strikes}</strong> 分
+      list_item_heading_hidden: 收到管理员 <strong>{mod_username}</strong> 警告并扣 <strong>{strikes}</strong> 分 <strong>（已移除）</strong>
+      public_comment: 用户可见备注
+      private_comment: 管理员可见备注
+      linked_post: 关联的贴子
+    warning_modal:
+      confirmation_message: 您的警告已保存，可能需要刷新页面才能看到。
+      dismiss_button: 完成
+      heading: 警告 <strong>{username}</strong>
+      strikes_heading: 扣几分？
+      public_comment_heading: <strong>{username}</strong> 为何收到警告？此备注仅用户及其他管理员可见。
+      private_comment_heading: <strong>{username}</strong> 为何收到警告？此备注仅管理员可见。
+      no_content_given: 内容不可为空
+      submit_button: 保存警告

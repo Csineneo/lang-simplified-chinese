@@ -27,6 +27,7 @@ composer remove csineneo/lang-simplified-chinese
   - [askvortsov-auth-sync](https://discuss.flarum.org/d/22759)
   - [askvortsov-categories](https://discuss.flarum.org/d/23184)
   - [askvortsov-help-tags](https://discuss.flarum.org/d/23004)
+  - [askvortsov-moderator-warnings](https://discuss.flarum.org/d/23228)
   - [askvortsov-saml](https://discuss.flarum.org/d/22757)
   - [backtowebsite](https://discuss.flarum.org/d/18285)
   - [clarkwinkelmann-author-change](https://discuss.flarum.org/d/21731)
