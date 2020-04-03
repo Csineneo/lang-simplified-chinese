@@ -21,7 +21,6 @@ fof-byobu:
       recipients: "仅 {count} 人可见"
       user_deleted: --已删除--
     nav:
-      private_discussions: 私密主题
       start_button: 新建私密主题
     input:
       search_recipients: 输入 ID 前三个字符进行搜索
