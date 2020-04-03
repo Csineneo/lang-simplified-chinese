@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/byobu/blob/master/resources/locale/en.yml
-# Mon, 02 Mar 2020 10:30:41 +0800
+# Fri, 03 Apr 2020 09:59:29 +0800
 
 fof-byobu:
   forum:
@@ -12,6 +12,8 @@ fof-byobu:
       edit_recipients: 编辑参与者
       send_pd: "给 {username} 发送消息"
       cancel: 取消
+      remove_from_discussion: 离开这个私密主题
+      make_public: 公开这个私密主题
     composer_private_discussion:
       submit_button: 发布私密主题
       title_placeholder: 私密主题标题
@@ -38,6 +40,7 @@ fof-byobu:
         added_and_removed: "{username} 添加“{added}”并移除“{removed}”"
         added: "{username} 添加“{added}”"
         removed: "{username} 移除“{removed}”"
+        removed_self: "{username} 离开了这个私密主题。"
     user:
       settings:
         block_pd: 禁用私密主题
@@ -46,10 +49,17 @@ fof-byobu:
       dropdown_label: 私密主题
 
     notifications:
-      pd_label: 某人将我加入了私密主题
-      pd_reply_label: 某人回复了我参与的私密主题
+      pd_label: 有人人将我加入了私密主题
+      pd_reply_label: 有人回复了我参与的私密主题
       pd_reply_text: "{username} 回复了你参与的私密主题"
       pd_text: "{username} 创建私密主题并邀请了你"
+      pd_user_left_label: 我参与的私密主题有人离开
+      pd_user_left_text: "{username} 离开了私密主题"
+      pd_added_text: "{username} 将您加入私密主题"
+      pd_added_label: "有人将我加入私密主题"
+
+    confirm:
+      make_public: 这将使得所有人都能看见这个私密主题，在继续之前请谨慎考虑这个操作是否正确。
 
   admin:
     permission:
@@ -58,6 +68,7 @@ fof-byobu:
       create_private_discussions_with_blocking_users: 允许添加已禁用私密主题的用户
       edit_user_recipients: 编辑参与私密讨论的参与者
       edit_group_recipients: 编辑参与私密讨论的群组
+      make_private_into_public: 转换私密主题为公开主题
       view_private_discussions-when-flagged: 如果有旗标则允许查看其他用户的私密主题
 
     settings:
@@ -66,6 +77,10 @@ fof-byobu:
 
   notifications:
     private_discussion_created:
-      title: "[私密主题] 某人创建私密主题并邀请你参与"
+      title: "[私密主题] 有人创建私密主题并邀请你参与"
     private_discussion_replied:
-      title: "[私密主题] 某人回复了私密主题"
+      title: "[私密主题] 有人回复了私密主题"
+    recipient_removed:
+      title: "[私密主题] 有人离开了私密主题"
+    private_discussion_added:
+      title: "[私密主题] 有人将您加入私密主题"
