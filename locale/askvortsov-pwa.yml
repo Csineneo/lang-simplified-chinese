@@ -1,0 +1,44 @@
+# https://github.com/askvortsov1/flarum-pwa/blob/master/resources/locale/en.yml
+# Fri, 03 Apr 2020 09:59:29 +0800
+
+askvortsov-pwa:
+  admin:
+    nav:
+      pwa_button: 渐进式网页应用
+      pwa_text: 将 Flarum 配置为渐进式网页应用，可安装于移动设备。我们提供了一些状态检查，但是最佳的测试方法是启用并安装它（搜索一下如何安装 PWA）。同时，请注意「安装这个 PWA」弹框由浏览器控制，无法更改。我强烈建议在您的网站文档中增加如何安装 PWA的说明。
+    pwa:
+      enable_label: 启用？
+      about:
+        description_text: 您可以在管理后台的「基本设置」页面修改描述。
+        name_text: 填入一个用于 PWA 的较长的名字。
+        heading: 关于
+        short_name_text: 您可以在管理后台的「基本设置」页面修改短名称。
+      colors:
+        heading: 颜色
+        background_color_text: 这是用于启动闪屏的占位颜色，将在 PWA 加载时显示。当 App 加载完成后将不再使用。
+        theme_color_text: 设备显示应用时可能会使用到这个颜色，比如 Android 的任务切换。您可以在管理后台的「外观」中修改主题颜色。
+      heading: PWA 设置
+      text: 将您的 Flarum 论坛配置为渐进式网页应用！请注意，这不会将您的站点提交到应用商店，而是为用户增加一个「添加到主屏幕」的选项。
+      status_check_heading: 状态检查
+      logo_heading: Logo 及图标
+      logo_text: |
+        您至少需要上传一个 Logo 以安装 PWA。请注意全部 Logo 都必须是正方形，如果不是请裁切调整。
+
+        可用大小如下，我强烈建议上传尽可能多的 Logo：这将会适配更多设备。
+
+        请注意您可以为较小的 Logo 上传一张较大的图片，比如您可以为所有大小上传 1000x1000px 的图片。但如果您想要上传 50x50px 的图片给 512x512px 大小的 Logo，图片将被拉伸。
+
+      logo_size_text: 上传的 Logo 将会被缩放至 {size}x{size}px。
+      submit_button: 保存设置
+      refreshed_message: PWA 配置刷新成功。
+    status:
+      disabled: 您必须启用 PWA。
+      config_no_https: config.php 文件中的链接未使用 HTTPS。PWA 必须使用 HTTPS。
+      possible_https_disabled: 您的站点可能未运行在 HTTPS 上，如果是 HTTPS，请忽略，如果不是，请启用 HTTPS，PWA 必须使用 HTTPS。
+      no_logo: 您必须上传至少一个 Logo。
+      no_name: 您必须提供全名。
+      manifest_does_not_exist: Web Manifest 文件不存在，请保存设置来刷新配置。
+      manifest_not_accessible: Web Manifest 文件不可访问，文件应当放置于 https://YOUR_FLARUM_SITE_URL/webmanifest.json。如果位置不正确，请检查服务器配置；如果位置正确，请忽略。
+      sw_does_not_exist: Service Worker 文件不存在，请保存设置来刷新配置。
+      sw_not_accessible: Service Worker 文件不可访问，文件应当放置于 https://YOUR_FLARUM_SITE_URL/sw.js。如果位置不正确，请检查服务器配置；如果位置正确，请忽略。
+      success: 未发现潜在问题！
