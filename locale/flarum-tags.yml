@@ -113,6 +113,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: 标签
+    create_tag: 新增标签
     name: 标签名称
     tags: 标签
