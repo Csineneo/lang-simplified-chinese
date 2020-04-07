@@ -1,5 +1,5 @@
 # https://github.com/askvortsov1/flarum-categories/blob/master/resources/locale/en.yml
-# Wed, 25 Mar 2020 10:22:42 +0800
+# Tue, 07 Apr 2020 08:24:09 +0800
 
 askvortsov-categories:
   admin:
@@ -8,11 +8,17 @@ askvortsov-categories:
     labels:
       keep_tags_nav: 侧边栏导航保留标签页面链接？
       child_bare_icon: 子分类图标不显示为圆形？
+      compact_mobile_mode: 紧凑模式
       full_page_desktop: 侧边栏导航要收起为一行吗？这将同时隐藏挂件（比如论坛统计）。
       parent_remove_icon: 隐藏顶级标签的图标？
       parent_remove_description: 隐藏顶级标签的描述？
       parent_remove_stats: 隐藏顶级标签的状态？
       parent_remove_last_discussion: 隐藏顶级标签的最新主题?
+    headings:
+      nav: 导航
+      layout: 样式
+      parent_display: 显示父分类
+      child_display: 显示子分类
     title: 论坛版块设置
   forum:
     categories:
