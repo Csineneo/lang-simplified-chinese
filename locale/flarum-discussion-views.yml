@@ -1,6 +1,5 @@
 # https://github.com/MichaelBelgium/flarum-discussion-views/blob/master/locale/en.yml
-# 9329208
-# Fri, 31 Jan 2020 15:04:19 +0800
+# Tue, 07 Apr 2020 08:24:09 +0800
 
 core:
   forum:
@@ -20,7 +19,8 @@ flarum_discussion_views:
       title: 最近浏览的人
   admin:
     permissions:
-      reset_views_label: 设置讨论浏览次数
+      can_reset_views: 重设主题浏览次数
+      can_view_number: 查看主题浏览次数
     settings:
       title: 讨论浏览量设置
       track_unique: 仅追踪 UV（独立访客）
