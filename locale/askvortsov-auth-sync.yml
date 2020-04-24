@@ -1,10 +1,12 @@
 # https://github.com/askvortsov1/flarum-auth-sync/blob/master/resources/locale/en.yml
-# Thu, 13 Feb 2020 09:25:02 +0800
+# Fri, 24 Apr 2020 10:20:18 +0800
 
 askvortsov-auth-sync:
   admin:
     title: Auth 同步设置
     labels:
+      stop_avatar_change: 阻止用户从 Flarum 中修改头像？
+      stop_bio_change: 阻止用户从 Flarum 中修改简介（需要 fof/user-bio 插件)？
       sync_avatar: 同步头像？
       sync_groups: 同步群组？
       sync_bio: 同步简介？（需要 fof/user-bio 插件)
