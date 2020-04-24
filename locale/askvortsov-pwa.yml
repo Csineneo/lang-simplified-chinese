@@ -1,11 +1,11 @@
 # https://github.com/askvortsov1/flarum-pwa/blob/master/resources/locale/en.yml
-# Fri, 03 Apr 2020 09:59:29 +0800
+# Fri, 24 Apr 2020 10:20:18 +0800
 
 askvortsov-pwa:
   admin:
     nav:
       pwa_button: 渐进式网页应用
-      pwa_text: 将 Flarum 配置为渐进式网页应用，可安装于移动设备。我们提供了一些状态检查，但是最佳的测试方法是启用并安装它（搜索一下如何安装 PWA）。同时，请注意「安装这个 PWA」弹框由浏览器控制，无法更改。我强烈建议在您的网站文档中增加如何安装 PWA 的说明。
+      pwa_text: 将 Flarum 配置为渐进式网页应用，可安装于移动设备。
     pwa:
       enable_label: 启用？
       about:
