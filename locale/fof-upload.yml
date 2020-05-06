@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/upload/blob/master/resources/locale/en.yml
-# Fri, 14 Feb 2020 11:48:52 +0800
+# Wed, 06 May 2020 11:20:35 +0800
 
 fof-upload:
   admin:
@@ -80,3 +80,8 @@ fof-upload:
       error: 错误
       loading: 正在上传
       unauthorized: 您未被允许下载附件
+  api:
+    upload_errors:
+      forbidden_type: 不允许上传这个类型的文件
+      unsupported_type: '上传适配器不支持这个 MIME 类型： {mime}'
+      could_not_detect_mime: 无法检测这个文件的 MIME 类型，请重试。
