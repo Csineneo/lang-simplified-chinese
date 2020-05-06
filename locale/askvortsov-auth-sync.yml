@@ -1,10 +1,11 @@
 # https://github.com/askvortsov1/flarum-auth-sync/blob/master/resources/locale/en.yml
-# Fri, 24 Apr 2020 10:20:18 +0800
+# Wed, 06 May 2020 11:20:35 +0800
 
 askvortsov-auth-sync:
   admin:
     title: Auth 同步设置
     labels:
+      ignored_avatar: 如果泛黄的 头像与此相同，那么将不会从 auth 进行设置，这可用于忽略预设头像。
       stop_avatar_change: 阻止用户从 Flarum 中修改头像？
       stop_bio_change: 阻止用户从 Flarum 中修改简介（需要 fof/user-bio 插件)？
       sync_avatar: 同步头像？
