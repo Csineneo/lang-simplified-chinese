@@ -85,6 +85,7 @@ composer remove csineneo/lang-simplified-chinese
   - [fof-byobu](https://discuss.flarum.org/d/4762)
   - [fof-custom-footer](https://discuss.flarum.org/d/17774)
   - [fof-default-group](https://discuss.flarum.org/d/11714)
+  - [fof-discussion-language](https://discuss.flarum.org/d/23702)
   - [fof-disposable-emails](https://discuss.flarum.org/d/20457)
   - [fof-drafts](https://discuss.flarum.org/d/20957)
   - [fof-filter](https://discuss.flarum.org/d/5131)
