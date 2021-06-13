@@ -1,19 +1,17 @@
 ## Flarum 简体中文语言包 / Simplified Chinese Language Pack
 
 ### 需求 / Requirement
-  - Flarum v0.1.0-beta.8 及更高版本
+  - Flarum v1.0 及更高版本
 
 
 ### 安装 / Installation
 ```
-composer require csineneo/lang-traditional-chinese
-composer require csineneo/lang-simplified-chinese
+composer require hanbings/lang-simplified-chinese
 ```
 
 ### 卸载 / Remove
 ```
-composer remove csineneo/lang-traditional-chinese
-composer remove csineneo/lang-simplified-chinese
+composer remove hanbings/lang-simplified-chinese
 ```
 
 ### 本地化 / Localization
