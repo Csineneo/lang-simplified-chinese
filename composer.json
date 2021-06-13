@@ -11,14 +11,14 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Csineneo",
-      "email": "csineneo@gmail.com",
-      "homepage": "https://vivaldi.club"
+      "name": "Hanbings",
+      "email": "hanbings@hanbings.io",
+      "homepage": "https://hanbings.io"
     }
   ],
   "support": {
-    "source": "https://github.com/Csineneo/lang-simplified-chinese",
-    "issues": "https://vivaldi.club/t/flarum"
+    "source": "https://github.com/hanbings/lang-simplified-chinese",
+    "issues": "https://report.yallage.com"
   },
   "require": {
     "flarum/core": "^0.1.0-beta.13 || ^1.0"
